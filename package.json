@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "antd": "^5.8.4",
     "autoprefixer": "10.4.15",
     "chart.js": "^4.3.3",
     "next": "13.4.17",

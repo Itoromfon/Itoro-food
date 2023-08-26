@@ -15,14 +15,15 @@ const Sidebar = ({children}) => {
             <div 
                 className="
                     fixed
-                    w-20
                     h-screen
-                    p-4
-                    bg-white
                     border-r-[1px]
-                    flex
                     flex-col
                     justify-between
+                    md:flex
+                    md:p-4
+                    md:w-20
+                    md:bg-white
+                    hidden
                 "
             >
                 <div className="flex flex-col items-center">
@@ -55,7 +56,7 @@ const Sidebar = ({children}) => {
                     </Link>
                 </div>
             </div>
-            <main className="ml-20 w-full">{children}</main>
+            <main className="md:ml-20 w-full">{children}</main>
         </div>
      );
 }

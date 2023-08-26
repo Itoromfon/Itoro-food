@@ -15,6 +15,8 @@ const RecentOrders = () => {
         h-[50vh]
         m-auto
         p-4
+        md:mb-0
+        mb-10
         border
         rounded-lg
         bg-white

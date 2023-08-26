@@ -9,10 +9,25 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-      <main className='bg-gray-100 min-h-screen'>
+      <main 
+        className='
+          bg-gray-100 
+          min-h-screen
+          '
+        >
         <Header />
         <Cards />
-        <div className='p-4 grid md:grid-cols-3 grid-cols-1 gap-4'>
+        <div 
+          className='
+            md:p-4 
+            p-10
+            py-5
+            grid 
+            md:grid-cols-3 
+            grid-cols-1 
+            gap-4
+            '
+          >
           <Chart />
           <RecentOrders />
         </div>

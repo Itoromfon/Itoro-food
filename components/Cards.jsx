@@ -1,9 +1,19 @@
+'use client';
+
 import React from "react";
 
 const Cards = () => {
     return ( 
         /* we would have oe parent div and three siblings div */
-        <div className="grid lg:grid-cols-6 gap-4 p-4">
+        <div className="
+                grid 
+                lg:grid-cols-6 
+                gap-4 
+                md:p-4
+                p-10
+                py-5
+            "
+        >
             <div className="
                     lg:col-span-2
                     col-span-1
