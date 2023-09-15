@@ -9,6 +9,8 @@ function Reservation() {
             md:mt-32
             mt-16
             pb-24
+            md:flex
+            md:flex-col
             bg-cover
             bg-[url("https://restho-nextjs.vercel.app/_next/static/media/h2-reservation-bg.ca77ecb0.png")]
     '>
@@ -44,72 +46,6 @@ function Reservation() {
           <div className='flex justify-center mt-5'>
               <h1 className='text-white md:text-5xl text-3xl text-center font-bold font-serif'>For Online Reservation</h1>
           </div>
-          {/* <div className='md:flex justify-center mt-16'>
-          <div className='flex flex-col justify-center items-center'>
-            <Input
-                className='
-                    w-96
-                    rounded-full
-                    bg-gray-800
-                    border border-gray-400
-                    p-4
-                '
-            />
-            <Input
-                className='
-                w-96
-                rounded-full
-                bg-gray-800
-                border border-gray-400
-                p-4
-                mt-5
-            '
-            />
-            <Input
-                className='
-                w-96
-                rounded-full
-                bg-gray-800
-                border border-gray-400
-                p-4
-                mt-5
-
-            '
-            />
-          </div>
-          <div className='md:ml-6 md:mt-0 mt-10 flex flex-col justify-center items-center'>
-              <Input
-                  className='
-                    w-96
-                    rounded-full
-                    bg-gray-800
-                    border border-gray-400
-                    p-4
-                '
-              />
-              <Input
-                  className='
-                w-96
-                rounded-full
-                bg-gray-800
-                border border-gray-400
-                p-4
-                mt-5
-            '
-              />
-              <Input
-                  className='
-                w-96
-                rounded-full
-                bg-gray-800
-                border border-gray-400
-                p-3
-                mt-5
-
-            '
-              />
-          </div>
-          </div> */}
           <div className='flex justify-center mt-10'>
           <Link
               href="#"

@@ -10,6 +10,8 @@ function NewItem() {
             md:pb-24
             pb-56
             bg-cover
+            md:flex
+            md:flex-col
             bg-[url("https://restho-nextjs.vercel.app/_next/static/media/h2-regular-items-bg.28bec6e3.png")]
     '>
           <div
@@ -64,8 +66,8 @@ function NewItem() {
             <div>
                 <div className='flex justify-center'>
                     <Image
-                        width={350}
-                        height={350}
+                          width={200}
+                          height={200}
                         src="https://restho-nextjs.vercel.app/assets/images/bg/h2-regular-items12.png"
                     />
                 </div>
@@ -88,8 +90,8 @@ function NewItem() {
             <div className='ml-10'>
                 <div className='flex justify-center'>
                     <Image
-                        width={350}
-                        height={350}
+                        width={200}
+                        height={200}
                         src="https://restho-nextjs.vercel.app/assets/images/bg/h2-regular-items13.png"
                     />
                 </div>
@@ -112,8 +114,8 @@ function NewItem() {
             <div className='ml-10'>
                 <div className='flex justify-center'>
                     <Image
-                        width={350}
-                        height={350}
+                        width={200}
+                        height={200}
                         src="https://restho-nextjs.vercel.app/assets/images/bg/h2-regular-items11.png"
 
                     />

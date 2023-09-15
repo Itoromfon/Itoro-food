@@ -58,7 +58,8 @@ function Restaurant() {
                         md:mb-5
                         md:justify-start
                         flex
-
+                        justify-center
+                        mb-8
                     '
               >
                   <Image
@@ -82,12 +83,13 @@ function Restaurant() {
                   />
               </div>
               <div className='flex flex-col'>
-                  <div className='font-bold flex font-serif text-3xl'>Come to Our Restaurant, Ready <br />Your Food.</div>
+                  <h1 className='font-bold mb-5 md:text-left md:flex text-center font-serif text-3xl'>Come to Our Restaurant, Ready <br />Your Food.</h1>
                   <div className='w-96'>
                       It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                   </div>
               </div>
-              <div className='flex mt-10'>
+              <div className='md:flex mt-10'>
+                <div className='flex justify-center'>
                 <Image 
                       src="https://restho-nextjs.vercel.app/assets/images/icon/h2-about1.svg"
                       width={90}
@@ -98,42 +100,47 @@ function Restaurant() {
                         p-4
                       '
                 />
-                <div className='flex flex-col ml-5'>
+                </div>
+                <div className='flex flex-col ml-5 mt-8'>
                 <h1 
                     className='
                         font-bold 
                         font-serif
                         text-xl
+                        text-center
                     '>
                       Pure Fresh Food.
                 </h1>
-                  <p className='md:text-lg text-gray-600'>We are serve different <br />type of fresh food.</p>
+                  <p className='md:text-lg text-center text-gray-600'>We are serve different <br />type of fresh food.</p>
                   </div>
               </div>
-              <div className='flex mt-10'>
-                  <Image
-                      src="https://restho-nextjs.vercel.app/assets/images/icon/h2-about1.svg"
-                      width={90}
-                      height={90}
-                      className='
+              <div className='md:flex mt-10'>
+                  <div className='flex justify-center'>
+                      <Image
+                          src="https://restho-nextjs.vercel.app/assets/images/icon/h2-about1.svg"
+                          width={90}
+                          height={90}
+                          className='
                         border border-amber-400
                         rounded-lg
                         p-4
                       '
-                  />
-                  <div className='flex flex-col ml-5'>
+                      />
+                  </div>
+                  <div className='flex flex-col ml-5 mt-8'>
                       <h1
                           className='
                         font-bold 
                         font-serif
                         text-xl
+                        text-center
                     '>
                           Experties Chef.
                       </h1>
-                      <p className='md:text-lg text-gray-600'>We are serve different <br />type of fresh food.</p>
+                      <p className='md:text-lg text-center text-gray-600'>We are serve different <br />type of fresh food.</p>
                   </div>
               </div>
-              <div className='mt-10'>
+              <div className='mt-10 flex justify-center md:justify-start'>
                   <Button
                       width={200}
                       height={100}
