@@ -51,7 +51,7 @@ function Restaurant() {
                   </div>
               </div>
           </div>
-          <div className='md:ml-28'>
+          <div className='md:ml-28 ml-0'>
               <div
                   className='
                         md:flex
@@ -85,7 +85,9 @@ function Restaurant() {
               <div className='flex flex-col'>
                   <h1 className='font-bold mb-5 md:text-left md:flex text-center font-serif text-3xl'>Come to Our Restaurant, Ready <br />Your Food.</h1>
                   <div className='w-96'>
-                      It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                      <p className='text-sm text-center md:text-left md:text-md md:ml-0 -ml-5'>
+                          It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                      </p>
                   </div>
               </div>
               <div className='md:flex mt-10'>
