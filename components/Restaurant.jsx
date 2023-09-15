@@ -58,7 +58,6 @@ function Restaurant() {
                         md:mb-5
                         md:justify-start
                         flex
-                        justify-start
 
                     '
               >
@@ -83,10 +82,10 @@ function Restaurant() {
                   />
               </div>
               <div className='flex flex-col'>
-                  <h1 className='font-bold font-serif text-3xl'>Come to Our Restaurant, Ready <br />Your Food.</h1>
-                  <p className='w-96'>
+                  <div className='font-bold flex font-serif text-3xl'>Come to Our Restaurant, Ready <br />Your Food.</div>
+                  <div className='w-96'>
                       It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                  </p>
+                  </div>
               </div>
               <div className='flex mt-10'>
                 <Image 

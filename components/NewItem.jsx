@@ -7,7 +7,8 @@ function NewItem() {
         className='
             md:mt-32
             mt-16
-            pb-24
+            md:pb-24
+            pb-56
             bg-cover
             bg-[url("https://restho-nextjs.vercel.app/_next/static/media/h2-regular-items-bg.28bec6e3.png")]
     '>
@@ -54,12 +55,12 @@ function NewItem() {
                 Restho New Item List
             </h1>
           </div>
-          <div className='flex mx-5 justify-center mt-5'>
-            <p className='text-white text-md'>
+          <div className='flex mx-5 justify-center mt-3 md:mt-5'>
+            <p className='text-white text-center text-sm md:text-lg'>
                   Various versions have evolved over the years, sometimes on purpose.
             </p>
           </div>
-          <div className='md:flex justify-center'>
+          <div className='md:flex pb-16 justify-center'>
             <div>
                 <div className='flex justify-center'>
                     <Image

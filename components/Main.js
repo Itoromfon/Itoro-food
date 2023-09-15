@@ -11,7 +11,7 @@ function Main() {
             md:flex
 
         '>
-        <div className='flex justify-center mb-20'>
+        <div className='flex justify-center ml-16 mb-20'>
             <Image 
                 className='-mt-7 -ml-72 absolute'
                 width={150} 
@@ -24,12 +24,12 @@ function Main() {
                 md:px-5
                 py-2 
                 md:w-72
+                w-64
                 h-24
                 ml-12
                 mr-11
                 md:pl-20
-                pl-36
-                w-68
+                pl-16
             '>
                 <h1 className='
                     font-bold 
@@ -40,10 +40,10 @@ function Main() {
                 '>
                     vegetarian
                 </h1>
-                  <p className='text-gray-500 w-64 md:text-md'>Lorem ipsum dolor sit amet consectet.</p>
+                  <p className='text-gray-500 w-64 text-sm md:text-md'>Lorem ipsum dolor sit amet <br/>consectet.</p>
             </div>
         </div>
-          <div className='flex justify-center mb-20 md:ml-10'>
+          <div className='flex justify-center ml-16 mb-20 md:ml-10'>
               <Image
                   className='-mt-7 -ml-72 absolute'
                   width={150}
@@ -56,12 +56,12 @@ function Main() {
                 md:px-5
                 py-2 
                 md:w-72
+                w-64
                 h-24
                 ml-12
                 mr-11
                 md:pl-20
-                pl-36
-                w-68
+                pl-16
             '>
                   <h1 className='
                     font-bold 
@@ -72,10 +72,10 @@ function Main() {
                 '>
                       Thai Soup
                   </h1>
-                  <p className='text-gray-500 w-64 md:text-md'>Lorem ipsum dolor sit amet consectet.</p>
+                  <p className='text-gray-500 w-64 text-sm md:text-md'>Lorem ipsum dolor sit amet <br />consectet.</p>
               </div>
           </div>
-          <div className='flex justify-center mb-20 md:ml-10'>
+          <div className='flex justify-center ml-16 mb-20 md:ml-10'>
               <Image
                   className='-mt-7 -ml-72 absolute'
                   width={150}
@@ -88,12 +88,12 @@ function Main() {
                 md:px-5
                 py-2 
                 md:w-72
+                w-64
                 h-24
                 ml-12
                 mr-11
                 md:pl-20
-                pl-36
-                w-68
+                pl-16
             '>
                   <h1 className='
                     font-bold 
@@ -104,7 +104,7 @@ function Main() {
                 '>
                       Sea Food
                   </h1>
-                  <p className='text-gray-500 w-64 md:text-md'>Lorem ipsum dolor sit amet consectet.</p>
+                  <p className='text-gray-500 w-64 text-sm md:text-md'>Lorem ipsum dolor sit amet <br />consectet.</p>
               </div>
           </div>
     </div>
