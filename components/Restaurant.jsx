@@ -86,13 +86,13 @@ function Restaurant() {
                   <h1 className='font-bold mb-5 md:text-left md:flex text-center font-serif text-2xl md:text-3xl'>Come to Our Restaurant, Ready <br />Your Food.</h1>  
               </div>
               <div className='m-auto w-96'>
-                  It has survived not only five centuries, but also 
+                  {/* It has survived not only five centuries, but also 
                   the leap into electronic typesetting, remaining 
                   essentially unchanged. It was popularised in the 
                   1960s with the release of Letraset sheets containing 
                   Lorem Ipsum passages, and more recently with desktop 
                   publishing software like Aldus PageMaker including 
-                  versions of Lorem Ipsum.
+                  versions of Lorem Ipsum. */}
               </div>
               <div className='md:flex mt-10'>
                 <div className='flex justify-center'>
