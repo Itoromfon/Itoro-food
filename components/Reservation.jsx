@@ -47,6 +47,114 @@ function Reservation() {
           <div className='flex justify-center mt-5'>
               <h1 className='text-white md:text-5xl text-3xl text-center font-bold font-serif'>For Online Reservation</h1>
           </div>
+          <div className='md:flex justify-center mt-5'>
+            <div className='flex flex-col'>
+            <div className='flex justify-center'>
+                <input 
+                    type='text'
+                    placeholder='Name*'
+                    className='
+                        bg-gray-800 
+                        rounded-full
+                        m-3
+                        px-6
+                        py-4
+                        w-96
+                        border 
+                        border-gray-400
+                        text-gray-400
+                    '    
+                    />
+                </div>
+                <div className='flex justify-center'>
+                    <input
+                        type='text'
+                        placeholder='People'
+                        className='
+                        bg-gray-800 
+                        rounded-full
+                        m-3
+                        px-6
+                        py-4
+                        w-96
+                        border 
+                        border-gray-400
+                        text-gray-400
+                    '
+                    />
+                </div>
+                <div className='flex justify-center'>
+                    <input
+                        type='text'
+                        placeholder='08 : 00 am'
+                        className='
+                        bg-gray-800 
+                        rounded-full
+                        m-3 
+                        px-6
+                        py-4
+                        w-96
+                        border 
+                        border-gray-400
+                        text-gray-400
+                    '
+                    />
+                </div>
+            </div>
+              <div className='flex flex-col'>
+                <div className='flex justify-center'>
+                  <input
+                      type='text'
+                      placeholder='Name*'
+                      className='
+                        bg-gray-800 
+                        rounded-full
+                        m-3
+                        px-6
+                        py-4
+                        w-96
+                        border 
+                        border-gray-400
+                        text-gray-400
+                    '
+                  />
+                  </div>
+                  <div className='flex justify-center'>
+                  <input
+                      type='text'
+                      placeholder='People'
+                      className='
+                        bg-gray-800 
+                        rounded-full
+                        m-3
+                        px-6
+                        py-4
+                        w-96
+                        border 
+                        border-gray-400
+                        text-gray-400
+                    '
+                  />
+                  </div>
+                  <div className='flex justify-center'>
+                  <input
+                      type='text'
+                      placeholder='08 : 00 am'
+                      className='
+                        bg-gray-800 
+                        rounded-full
+                        m-3 
+                        px-6
+                        py-4
+                        w-96
+                        border 
+                        border-gray-400
+                        text-gray-400
+                    '
+                  />
+                  </div>
+              </div> 
+          </div>
           <div className='flex justify-center mt-10'>
           <Link
               href="#"
