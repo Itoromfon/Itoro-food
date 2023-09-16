@@ -35,23 +35,29 @@ function Gallery() {
           <div className='flex justify-center mt-5'>
             <h1 className='font-bold font-serif text-3xl md:text-5xl'>Our Special Gallery</h1>
           </div>
-          <div className='flex  justify-center mt-11'>
-            <Image 
-                  src="https://restho-nextjs.vercel.app/assets/images/bg/2col-gallery-big-01.png"
-                  width={400}
-                  height={500}
+          <div className='md:flex justify-center mt-11'>
+          <div className='flex justify-center'>
+            <Image
+              src="https://restho-nextjs.vercel.app/assets/images/bg/2col-gallery-big-01.png"
+              width={400}
+              height={500}
             />
+          </div>
+          <div className='flex justify-center'>
             <Image 
-                  src="https://restho-nextjs.vercel.app/assets/images/bg/2col-gallery-big-01.png"
-                  width={400}
-                  height={500}
-                  className='mt-4 mb-4'
+                src="https://restho-nextjs.vercel.app/assets/images/bg/2col-gallery-big-01.png"
+                width={400}
+                height={500}
+                className='mt-4 mb-4'
             />
+           </div> 
+           <div className='flex justify-center'>
             <Image 
-                  src="https://restho-nextjs.vercel.app/assets/images/bg/2col-gallery-big-02.png"
-                  width={400}
-                  height={500}
+                src="https://restho-nextjs.vercel.app/assets/images/bg/2col-gallery-big-02.png"
+                width={400}
+                height={500}
             />
+            </div>
           </div>
     </div>
   )
