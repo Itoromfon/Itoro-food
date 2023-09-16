@@ -52,22 +52,21 @@ function HeroBody() {
                         md:text-left    
                     '
                       >
-                          Find Your Best <br /> Healthy & Tasty Food.
+                      Find Your Best Healthy <br /> & Tasty Food.
                       </h1>
                 <p className='
                     text-white 
                     md:mt-11 
                     md:text-lg
-                    md:text-left
+                    md:justify-start
                     text-sm
                     flex
                     justify-center
-                    text-center
                     mt-5
                 '
                 >
                     It is a long established fact that a reader 
-                    will be distracted by the <br />readable content of
+                    will <br /> be distracted by the readable content of
                     a page.
                 </p>
             </div>

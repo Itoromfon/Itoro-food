@@ -35,7 +35,7 @@ function Gallery() {
           <div className='flex justify-center mt-5'>
             <h1 className='font-bold font-serif text-3xl md:text-5xl'>Our Special Gallery</h1>
           </div>
-          <div className='md:flex mt-10 md:mt-20 mx-16'>
+          <div className='flex  justify-center mt-11'>
             <Image 
                   src="https://restho-nextjs.vercel.app/assets/images/bg/2col-gallery-big-01.png"
                   width={400}

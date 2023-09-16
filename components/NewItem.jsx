@@ -10,6 +10,7 @@ function NewItem() {
             md:pb-24
             pb-56
             bg-cover
+            bg-center
             md:flex
             md:flex-col
             bg-[url("https://restho-nextjs.vercel.app/_next/static/media/h2-regular-items-bg.28bec6e3.png")]

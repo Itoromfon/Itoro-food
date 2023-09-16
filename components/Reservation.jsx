@@ -12,6 +12,7 @@ function Reservation() {
             md:flex
             md:flex-col
             bg-cover
+            bg-center
             bg-[url("https://restho-nextjs.vercel.app/_next/static/media/h2-reservation-bg.ca77ecb0.png")]
     '>
           <div
