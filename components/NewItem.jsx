@@ -63,12 +63,12 @@ function NewItem() {
                   Various versions have evolved over the years, sometimes on purpose.
             </p>
           </div>
-          <div className='md:flex pb-16 justify-center'>
+          <div className='md:flex pb-20 justify-center'>
             <div>
                 <div className='flex justify-center'>
                     <Image
-                          width={200}
-                          height={200}
+                          width={250}
+                          height={250}
                         src="https://restho-nextjs.vercel.app/assets/images/bg/h2-regular-items12.png"
                     />
                 </div>
@@ -91,8 +91,8 @@ function NewItem() {
             <div className='ml-10'>
                 <div className='flex justify-center'>
                     <Image
-                        width={200}
-                        height={200}
+                        width={250}
+                        height={250}
                         src="https://restho-nextjs.vercel.app/assets/images/bg/h2-regular-items13.png"
                     />
                 </div>
@@ -115,8 +115,8 @@ function NewItem() {
             <div className='ml-10'>
                 <div className='flex justify-center'>
                     <Image
-                        width={200}
-                        height={200}
+                        width={250}
+                        height={250}
                         src="https://restho-nextjs.vercel.app/assets/images/bg/h2-regular-items11.png"
 
                     />
