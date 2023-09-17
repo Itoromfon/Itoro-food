@@ -4,7 +4,7 @@ import { BsArrowUpRightCircle } from 'react-icons/bs'
 
 function MenuList() {
   return (
-    <div>
+    <div className='md:ml-16'>
     <div className='md:flex md:mx-20 mx-10 mt-10 md:mt-20 justify-between'>
           <div
               className='
@@ -28,7 +28,7 @@ function MenuList() {
                         md:mt-8
                     '
               >
-                  Welcome To Restho
+                  Menu List
               </p>
               <Image
                   src="https://restho-nextjs.vercel.app/assets/images/icon/sub-title-vec.svg"
