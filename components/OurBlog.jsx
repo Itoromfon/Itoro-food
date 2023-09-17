@@ -1,6 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { AiOutlineLine } from "react-icons/ai"
+import { BsArrowRight } from "react-icons/bs"
 
 function OurBlog() {
   return (
@@ -37,16 +39,20 @@ function OurBlog() {
           <div className='flex justify-center mt-7'>
             <h1 className='font-bold font-serif text-3xl md:text-5xl'>Our Latest Blog</h1>
           </div>
-          <div className='md:flex justify-center mt-10'>
-              <div className='flex justify-center md:mt-0 mt-10'>
+        <div className='md:flex justify-center mt-10'>
+        <div className='flex flex-col justify-center md:mt-0 mt-10'>
           <div 
             className='
                 relative
+                md:ml-8
+                m-auto
                 rounded-lg
                 bg-center
                 bg-cover
-                w-[300px]
-                h-[250px]
+                md:w-[300px]
+                md:h-[250px]
+                w-[270px]
+                h-[210px]
                 bg-[url("https://restho-nextjs.vercel.app/assets/images/bg/h2-blog1.png")]
             '>
                 <Link
@@ -84,106 +90,283 @@ function OurBlog() {
                         April
                     </p>
                 </Link>
+                </div>
+                <div 
+                    className='
+                    border 
+                    border-gray-200 
+                    rounded-lg 
+                    m-auto
+                    md:px-16 
+                    px-10
+                    md:pt-24
+                    pt-14 
+                    pb-8
+                    md:-mt-20
+                    -mt-9
+                '
+            >
+            <div className='flex justify-center mt-8'>
+                <AiOutlineLine
+                    className='text-gray-500 -mt-0.5 w-[30px] h-[30px]'
+                 />
+                <p className='text-gray-500'>By Clone Watson</p>
+            </div>
+            <div className='flex justify-center mt-3'>
+                <h1 
+                    className='
+                        font-bold
+                        font-serif
+                        text-xl
+                    '
+                >
+                    To make Good Health <br/>Take Nutrition Food.
+                </h1>
+            </div>
+            <div className='flex justify-center mt-4'>
+                <button 
+                    className='
+                        bg-white 
+                        border 
+                        border-amber-600
+                        px-16
+                        py-3.5
+                        rounded-full
+                    '
+                >
+                    <BsArrowRight 
+                        className='
+                            text-amber-600
+                        ' 
+                    />
+                </button>
             </div>
             </div>
-            <div className='flex justify-center md:mt-0 mt-10'>
+            </div>
+            <div 
+                className='
+                    flex 
+                    flex-col 
+                    justify-center 
+                    md:mt-0 
+                    mt-10
+                    ml-7
+                '
+            >
             <div
-            className='
-                md:ml-10
+                className='
                 relative
+                md:ml-8
+                m-auto
                 rounded-lg
                 bg-center
                 bg-cover
-                w-[300px]
-                h-[250px]
+                md:w-[300px]
+                md:h-[250px]
+                w-[270px]
+                h-[210px]
                 bg-[url("https://restho-nextjs.vercel.app/assets/images/bg/h2-blog2.png")]
             '>
-                  <Link
-                      href="#"
-                      className='
-                        rounded-lg 
-                        text-white 
-                        absolute 
-                        px-4 
-                        py-2 
-                        m-4 
-                        top-0 
-                        right-0 
-                        bg-white 
-                        hover:bg-amber-700
+                <Link
+                    href="#"
+                    className='
+                    rounded-lg 
+                    text-white 
+                    absolute 
+                    px-4 
+                    py-2 
+                    m-4 
+                    top-0 
+                    right-0 
+                    bg-white 
+                    hover:bg-amber-700
+                    hover:text-white
+                '>
+                        <h1
+                            className='
+                        text-amber-700 
+                        font-bold 
+                        text-xl
                         hover:text-white
-                    '>
-                      <h1
-                          className='
-                            text-amber-700 
-                            font-bold 
-                            text-xl
-                            hover:text-white
+                    '
+                        >
+                            17
+                        </h1>
+                        <p
+                            className='
+                        text-amber-700 
+                        text-sm
+                        hover:text-white
+                    '
+                        >
+                            April
+                        </p>
+                    </Link>
+                  </div>
+                  <div
+                      className='
+                    border 
+                    border-gray-200 
+                    rounded-lg 
+                    m-auto
+                    md:px-16 
+                    px-10
+                    md:pt-24
+                    pt-14 
+                    pb-8
+                    md:-mt-20
+                    -mt-9
+                '
+                  >
+                      <div className='flex justify-center mt-8'>
+                          <AiOutlineLine
+                              className='text-gray-500 -mt-0.5 w-[30px] h-[30px]'
+                          />
+                          <p className='text-gray-500'>By Clone Watson</p>
+                      </div>
+                      <div className='flex justify-center mt-3'>
+                          <h1
+                              className='
+                        font-bold
+                        font-serif
+                        text-xl
+                    '
+                          >
+                              To make Good Health <br />Take Nutrition Food.
+                          </h1>
+                      </div>
+                      <div className='flex justify-center mt-4'>
+                          <button
+                              className='
+                        bg-white 
+                        border 
+                        border-amber-600
+                        px-16
+                        py-3.5
+                        rounded-full
+                    '
+                          >
+                              <BsArrowRight
+                                  className='
+                            text-amber-600
                         '
-                      >
-                          18
-                      </h1>
-                      <p
-                          className='
-                            text-amber-700 
-                            text-sm
-                            hover:text-white
-                        '
-                      >
-                          Apr
-                      </p>
-                  </Link>
+                              />
+                          </button>
+                      </div>
+                  </div>
               </div>
-              </div>
-              <div className='flex justify-center md:mt-0 mt-10'>
-              <div
+            <div 
                 className='
-                md:ml-10
-                relative
-                rounded-lg
-                bg-center
-                bg-cover
-                w-[300px]
-                h-[250px]
-                bg-[url("https://restho-nextjs.vercel.app/assets/images/bg/h2-blog3.png")]
+                    flex 
+                    flex-col 
+                    ml-7 
+                    justify-center 
+                    md:mt-0 
+                    mt-10
+                '
+            >
+                <div
+                className='
+                    relative
+                    md:ml-8
+                    m-auto
+                    rounded-lg
+                    bg-center
+                    bg-cover
+                    md:w-[300px]
+                    md:h-[250px]
+                    w-[270px]
+                    h-[210px]
+                    bg-[url("https://restho-nextjs.vercel.app/assets/images/bg/h2-blog3.png")]
             '>
-                  <Link
-                      href="#"
+            <Link
+                href="#"
+                className='
+                    rounded-lg 
+                    text-white 
+                    absolute 
+                    px-4 
+                    py-2 
+                    m-4 
+                    top-0 
+                    right-0 
+                    bg-white 
+                    hover:bg-amber-700
+                    hover:text-white
+                '>
+                    <h1
+                        className='
+                    text-amber-700 
+                    font-bold 
+                    text-xl
+                    hover:text-white
+                '
+                    >
+                        17
+                    </h1>
+                    <p
+                    className='
+                    text-amber-700 
+                    text-sm
+                    hover:text-white
+                    '
+                    >
+                        April
+                    </p>
+                </Link>
+                  </div>
+                  <div
                       className='
-                        rounded-lg 
-                        text-white 
-                        absolute 
-                        px-4 
-                        py-2 
-                        m-4 
-                        top-0 
-                        right-0 
+                    border 
+                    border-gray-200 
+                    rounded-lg 
+                    m-auto
+                    md:px-16 
+                    px-10
+                    md:pt-24
+                    pt-14 
+                    pb-8
+                    md:-mt-20
+                    -mt-9
+                '
+                  >
+                      <div className='flex justify-center mt-8'>
+                          <AiOutlineLine
+                              className='text-gray-500 -mt-0.5 w-[30px] h-[30px]'
+                          />
+                          <p className='text-gray-500'>By Clone Watson</p>
+                      </div>
+                      <div className='flex justify-center mt-3'>
+                          <h1
+                              className='
+                        font-bold
+                        font-serif
+                        text-xl
+                    '
+                          >
+                              To make Good Health <br />Take Nutrition Food.
+                          </h1>
+                      </div>
+                      <div className='flex justify-center mt-4'>
+                          <button
+                              className='
                         bg-white 
-                        hover:bg-amber-700
-                        hover:text-white
-                    '>
-                      <h1
-                          className='
-                            text-amber-700 
-                            font-bold 
-                            text-xl
-                            hover:text-white
+                        border 
+                        border-amber-600
+                        px-16
+                        py-3.5
+                        rounded-full
+                    '
+                          >
+                              <BsArrowRight
+                                  className='
+                            text-amber-600
                         '
-                      >
-                          17
-                      </h1>
-                      <p
-                          className='
-                            text-amber-700 
-                            text-sm
-                            hover:text-white
-                        '
-                      >
-                          Apr
-                      </p>
-                  </Link>
-              </div>
-              </div>
+                              />
+                          </button>
+                      </div>
+                  </div>
+            </div>
           </div>
     </div>
   )
