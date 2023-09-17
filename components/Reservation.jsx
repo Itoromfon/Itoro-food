@@ -30,10 +30,11 @@ function Reservation() {
                   height={20}
               />
               <p className='
-                        text-amber-400
+                        text-[#bf9444]
                         mx-3
                         md:text-lg
                         text-md
+                        -mt-1
                     '
               >
                   Online Reserve
@@ -156,22 +157,23 @@ function Reservation() {
               </div> 
           </div>
           <div className='flex justify-center mt-10'>
-          <Link
-              href="#"
-              className='
-                    bg-yellow-600
-                    text-white
-                    px-10
-                    py-3
-                    rounded-full
-                    text-lg
-                    font-bold
-                    md:flex
-                    w-60
-                '
-          >
-              Find Reservation
-          </Link>
+              <button
+                className='
+                bg-[#bf9444]
+                hover:bg-[#fff]
+                hover:text-[#bf9444]
+                text-white
+                md:px-40
+                px-28
+                py-3.5
+                rounded-full
+                text-lg
+                font-bold
+                md:ml-4
+                cursor-pointer
+            '>
+                  Reserve Now
+              </button>
           </div>
     </div>
   )

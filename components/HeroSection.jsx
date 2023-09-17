@@ -27,7 +27,7 @@ function HeroSection() {
             '
             >
             <div>
-                <p className='text-amber-400 text-md text-center'>
+                  <p className='text-[#bf9444] text-md text-center'>
                     Opening Hour:
                     <span className='text-white ml-3'>
                         9.00am - 10.00am
@@ -45,13 +45,13 @@ function HeroSection() {
                     <div className='pt-1'>
                           <AiOutlineMail
                             className='
-                        text-amber-400
+                        text-[#bf9444]
                         '
                         />
                     </div>
                     
                     <p className='
-                        hover:text-amber-400
+                        hover:text-[#bf9444]
                         ml-2
                     '
                     >

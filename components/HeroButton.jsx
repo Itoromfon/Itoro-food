@@ -6,14 +6,15 @@ function HeroButton() {
     <div>
       <button 
         className='
-          text-yellow-600
+          text-[#bf9444]
           border
-          border-yellow-600
+          border-[#bf9444]
           px-10
           py-3
+          mb-16
           rounded-full
           cursor-pointer
-          hover:bg-yellow-700
+          hover:bg-[#bf9444]
           hover:text-white
           font-bold
           text-lg

@@ -34,10 +34,11 @@ function NewItem() {
                   src="https://restho-nextjs.vercel.app/assets/images/icon/sub-title-vec.svg"
               />
               <p className='
-                        text-amber-400
+                        text-[#bf9444]
                         mx-3
                         md:text-lg
                         text-md
+                        -mt-1
                     '
               >
                   Our New item

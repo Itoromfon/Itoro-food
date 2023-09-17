@@ -24,7 +24,7 @@ function HeroBody() {
                         height={20}
                     />
                     <p className='
-                        text-yellow-600
+                        text-[#bf9444]
                         mx-3
                         md:text-lg
                         text-md

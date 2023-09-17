@@ -67,7 +67,7 @@ function Restaurant() {
                       height={20}
                   />
                   <p className='
-                        text-amber-400
+                        text-[#bf9444]
                         mx-3
                         md:text-lg
                         text-md
@@ -98,7 +98,7 @@ function Restaurant() {
                 <img 
                       src="https://restho-nextjs.vercel.app/assets/images/icon/h2-about1.svg"
                       className='
-                        border border-amber-400
+                        border border-[#bf9444]
                         rounded-lg
                         p-4
                         md:w-[90px]
@@ -126,7 +126,7 @@ function Restaurant() {
                       <img
                         src="https://restho-nextjs.vercel.app/assets/images/icon/h2-about1.svg"
                         className='
-                        border border-amber-400
+                        border border-[#bf9444]
                         rounded-lg
                         p-4
                         md:w-[90px]
@@ -153,9 +153,9 @@ function Restaurant() {
                   <button 
                     className='
                         border
-                        border-yellow-600
-                        text-yellow-600
-                        hover:bg-yellow-600
+                        border-[#bf9444]
+                        text-[#bf9444]
+                        hover:bg-[#bf9444]
                         hover:text-white
                         font-bold
                         text-lg

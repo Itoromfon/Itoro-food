@@ -274,8 +274,8 @@ function NavBar() {
             </ul>
             <button 
                 className='
-                bg-yellow-600
-                hover:bg-yellow-700
+                bg-[#bf9444]
+                hover:bg-black
                 text-white
                 px-10
                 py-3

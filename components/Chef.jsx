@@ -18,24 +18,29 @@ function Chef() {
 
                 '
         >
-            <Image
+            <img
+                className='
+                    w-[20px]
+                    h-[20px]
+                '
                 src="https://restho-nextjs.vercel.app/assets/images/icon/sub-title-vec.svg"
-                width={20}
-                height={20}
             />
             <p className='
-                    text-amber-400
+                    text-[#bf9444]
                     mx-3
                     md:text-lg
                     text-md
+                    -mt-1
                 '
             >
                 Our Experties
             </p>
-            <Image
+              <img
+                  className='
+                    w-[20px]
+                    h-[20px]
+                '
                 src="https://restho-nextjs.vercel.app/assets/images/icon/sub-title-vec.svg"
-                width={20}
-                height={20}
             />
         </div>
         <div className='flex justify-center mt-5'>
@@ -43,12 +48,18 @@ function Chef() {
         </div>
         <div className='md:flex mx-16 mt-10'>
               <div className='md:mt-2 mt-8'>
-            <Image 
+              <div className='flex justify-center'>
+                <img
+                    className='
+                    md:w-[400px]
+                    md:h-[330px]
+                    w-[350px]
+                    h-[250px]
+                    rounded-lg
+                '
                   src="https://restho-nextjs.vercel.app/assets/images/bg/chef-kitchen1.png"
-                  width={400}
-                  height={400}
-                  className='rounded-lg'
-            />
+                />
+                </div>
             <h1 className='mt-5 text-gray-800 text-center text-2xl font-bold font-serif'>Mr. Willium Jhon</h1>
             <p className='mt-3 text-gray-600 text-center'>Chef of Head</p>
             <div className='flex gap-16 justify-center mt-3'>
@@ -59,12 +70,19 @@ function Chef() {
             </div>
         </div>
             <div className='md:mt-2 mt-8'>
-            <Image 
+            <div className='flex justify-center'>
+                <img
+                    className='
+                    md:w-[400px]
+                    md:h-[330px]
+                    w-[350px]
+                    h-[250px]
+                    rounded-lg
+                    ml-5
+                '
                   src="https://restho-nextjs.vercel.app/assets/images/bg/chef-kitchen2.png"
-                  width={400}
-                  height={400}
-                  className='rounded-lg ml-5'
-            />
+                />
+            </div>
                 <h1 className='mt-5 text-gray-800 text-center text-2xl font-bold font-serif'>Mr. Willium Jhon</h1>
                 <p className='mt-3 text-gray-600 text-center'>Chef of Head</p>
                 <div className='flex gap-16 justify-center mt-3'>
@@ -75,12 +93,19 @@ function Chef() {
                 </div>
         </div>
             <div className='md:mt-2 mt-8'>
-              <Image
+            <div className='flex justify-center'>
+                <img
+                    className='
+                    md:w-[400px]
+                    md:h-[330px]
+                    w-[350px]
+                    h-[250px]
+                    rounded-lg
+                    ml-5
+                '
                   src="https://restho-nextjs.vercel.app/assets/images/bg/chef-kitchen3.png"
-                  width={400}
-                  height={400}
-                  className='rounded-lg ml-5'
-              />
+                />
+            </div>
                   <h1 className='mt-5 text-gray-800 text-center text-2xl font-bold font-serif'>Mr. Willium Jhon</h1>
                   <p className='mt-3 text-gray-600 text-center'>Chef of Head</p>
                   <div className='flex gap-16 justify-center mt-3'>

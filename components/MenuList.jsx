@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from 'next/image'
-import { Button } from 'antd'
 import { BsArrowUpRightCircle } from 'react-icons/bs'
 
 function MenuList() {
@@ -22,7 +21,7 @@ function MenuList() {
                   height={20}
               />
               <p className='
-                        text-amber-400
+                        text-[#bf9444]
                         mx-3
                         md:text-lg
                         text-md
@@ -38,36 +37,33 @@ function MenuList() {
               />
           </div>
           <div className='flex justify-center mt-9'>
-              <Button
-                  width={200}
-                  height={100}
-                  className='
-                    rounded-full
-                    md:text-lg
-                    text-md
-                    text-amber-400
-                    border-amber-400
-                    md:px-10
-                    md:py-4
-                    md:pb-10
-                    px-8
-                    py-3
-                    pb-8
-                    flex
-            '
-              >
-                  <BsArrowUpRightCircle
+                  <button
                       className='
+                        border
+                        border-[#bf9444]
+                        text-[#000]
+                        hover:bg-[#bf9444]
+                        hover:text-#000
+                        font-bold
+                        text-lg
+                        px-10
+                        py-3
+                        rounded-full
+                        cursor-pointer
+                        flex
+                    '>
+                      <BsArrowUpRightCircle
+                          className='
                             mr-3
                             mt-1
                         '
-                  />
-                  View More
-              </Button>
+                      />
+                      View More
+                  </button>
           </div>
          </div>
-         <div className='flex justify-center mt-10 md:mx-20 mx-10'>
-            <h1 className='font-bold font-serif text-3xl md:text-5xl'>Find You Food Item</h1>
+         <div className='flex md:justify-start justify-center mt-10 md:mt-2 md:mx-20 mx-10'>
+            <h1 className='font-bold font-serif text-3xl md:text-5xl'>Find Your Food Item</h1>
          </div>
     </div>
   )

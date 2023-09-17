@@ -22,10 +22,11 @@ function OurBlog() {
                     height={20}
                 />
                 <p className='
-                        text-amber-400
+                        text-[#bf9444]
                         mx-3
                         md:text-lg
                         text-md
+                        -mt-1
                     '
                 >
                     Online Reserve
@@ -71,8 +72,8 @@ function OurBlog() {
                         hover:text-white
                     '>
                             <h1
-                                className='
-                            text-amber-700 
+                            className='
+                            text-[#bf9444]
                             font-bold 
                             text-xl
                             hover:text-white
@@ -81,11 +82,11 @@ function OurBlog() {
                                 17
                             </h1>
                             <p
-                                className='
-                            text-amber-700 
+                            className='
+                            text-[#bf9444]
                             text-sm
                             hover:text-white
-                        '
+                            '
                             >
                                 Apr
                             </p>
@@ -128,8 +129,8 @@ function OurBlog() {
                         className='
                         bg-white 
                         border 
-                        border-amber-600
-                        hover:bg-amber-600
+                        border-[#bf9444]
+                        hover:bg-[#bf9444]
                         px-16
                         py-3.5
                         rounded-full
@@ -138,10 +139,10 @@ function OurBlog() {
                         <BsArrowRight
                         className='
                             hover:text-white
-                            text-amber-600
+                            text-[#bf9444]
                         '
                                 />
-                            </button>
+                        </button>
                         </div>
                     </div>
                 </div>
@@ -155,10 +156,10 @@ function OurBlog() {
                     ml-7
                 '
                 >
-                    <div
-                        className='
+                <div
+                className='
                 relative
-                md:ml-8
+                md:ml-9
                 m-auto
                 rounded-lg
                 bg-center
@@ -169,9 +170,9 @@ function OurBlog() {
                 h-[210px]
                 bg-[url("https://restho-nextjs.vercel.app/assets/images/bg/h2-blog2.png")]
             '>
-                        <Link
-                            href="#"
-                            className='
+                    <Link
+                    href="#"
+                    className='
                     rounded-lg 
                     text-white 
                     absolute 
@@ -184,19 +185,19 @@ function OurBlog() {
                     hover:bg-amber-700
                     hover:text-white
                 '>
-                            <h1
-                                className='
-                        text-amber-700 
+                        <h1
+                        className='
+                        text-[#bf9444] 
                         font-bold 
                         text-xl
                         hover:text-white
-                    '
-                            >
+                        '
+                        >
                                 18
-                            </h1>
-                            <p
-                                className='
-                        text-amber-700 
+                        </h1>
+                        <p
+                        className='
+                        text-[#bf9444] 
                         text-sm
                         hover:text-white
                     '
@@ -206,12 +207,14 @@ function OurBlog() {
                         </Link>
                     </div>
                     <div
-                        className='
+                    className='
                     border 
                     border-gray-200 
                     rounded-lg 
+                    md:ml-0
                     m-auto
-                    px-10
+                    md:px-10
+                    px-3
                     md:pt-24
                     pt-14 
                     pb-8
@@ -241,8 +244,8 @@ function OurBlog() {
                         className='
                         bg-white 
                         border 
-                        border-amber-600
-                        hover:bg-amber-600
+                        border-[#bf9444]
+                        hover:bg-[#bf9444]
                         px-16
                         py-3.5
                         rounded-full
@@ -251,9 +254,9 @@ function OurBlog() {
                             <BsArrowRight
                             className='
                             hover:text-white
-                            text-amber-600
+                            text-[#bf9444]
                         '
-                                />
+                        />
                             </button>
                         </div>
                     </div>
@@ -297,26 +300,26 @@ function OurBlog() {
                     hover:bg-amber-700
                     hover:text-white
                 '>
-                            <h1
-                                className='
-                    text-amber-700 
+                    <h1
+                    className='
+                    text-[#bf9444] 
                     font-bold 
                     text-xl
                     hover:text-white
-                '
-                            >
-                                17
-                            </h1>
-                            <p
-                                className='
-                    text-amber-700 
+                    '
+                >
+                    17
+                </h1>
+                <p
+                    className='
+                    text-[#bf9444]
                     text-sm
                     hover:text-white
                     '
-                            >
-                                Apr
-                            </p>
-                        </Link>
+                    >
+                        Apr
+                    </p>
+                    </Link>
                     </div>
                     <div
                         className='
@@ -355,16 +358,16 @@ function OurBlog() {
                         className='
                         bg-white 
                         border 
-                        border-amber-600
+                        border-[#bf9444]
                         px-16
                         py-3.5
                         rounded-full
-                        hover:bg-amber-600
+                        hover:bg-[#bf9444]
                     '
                             >
                             <BsArrowRight
                             className='
-                            text-amber-600
+                            text-[#bf9444]
                             hover:text-white
                         '
                                 />
