@@ -272,23 +272,23 @@ function NavBar() {
                         />
                     </Link>
             </ul>
-            <Link 
-                href="#"
+            <button 
                 className='
-                    bg-yellow-600
-                    text-white
-                    px-10
-                    py-3
-                    rounded-full
-                    text-lg
-                    font-bold
-                    md:ml-4
-                    md:flex
-                    hidden
-                '
-            >
+                bg-yellow-600
+                hover:bg-yellow-700
+                text-white
+                px-10
+                py-3
+                rounded-full
+                text-lg
+                font-bold
+                md:ml-4
+                md:flex
+                hidden
+                cursor-pointer
+            '>
                 Find Reservation
-            </Link>
+            </button>
             <DownMenu />
             </div>
         </nav>

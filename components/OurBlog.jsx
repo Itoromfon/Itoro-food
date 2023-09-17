@@ -5,44 +5,44 @@ import { AiOutlineLine } from "react-icons/ai"
 import { BsArrowRight } from "react-icons/bs"
 
 function OurBlog() {
-  return (
-    <div>
-          <div
-              className='
+    return (
+        <div>
+            <div
+                className='
                     pt-16
                     md:flex
                     md:ml-20
                     flex
                     justify-center
                     '
-          >
-              <Image
-                  src="https://restho-nextjs.vercel.app/assets/images/icon/sub-title-vec.svg"
-                  width={20}
-                  height={20}
-              />
-              <p className='
+            >
+                <Image
+                    src="https://restho-nextjs.vercel.app/assets/images/icon/sub-title-vec.svg"
+                    width={20}
+                    height={20}
+                />
+                <p className='
                         text-amber-400
                         mx-3
                         md:text-lg
                         text-md
                     '
-              >
-                  Online Reserve
-              </p>
-              <Image
-                  src="https://restho-nextjs.vercel.app/assets/images/icon/sub-title-vec.svg"
-                  width={20}
-                  height={20}
-              />
-          </div> 
-          <div className='flex justify-center mt-7'>
-            <h1 className='font-bold font-serif text-3xl md:text-5xl'>Our Latest Blog</h1>
-          </div>
-        <div className='md:flex justify-center mt-10'>
-        <div className='flex flex-col justify-center md:mt-0 mt-10'>
-          <div 
-            className='
+                >
+                    Online Reserve
+                </p>
+                <Image
+                    src="https://restho-nextjs.vercel.app/assets/images/icon/sub-title-vec.svg"
+                    width={20}
+                    height={20}
+                />
+            </div>
+            <div className='flex justify-center mt-7'>
+                <h1 className='font-bold font-serif text-3xl md:text-5xl'>Our Latest Blog</h1>
+            </div>
+            <div className='md:flex justify-center mt-10'>
+                <div className='flex flex-col justify-center md:mt-0 mt-10'>
+                    <div
+                        className='
                 relative
                 md:ml-8
                 m-auto
@@ -55,9 +55,9 @@ function OurBlog() {
                 h-[210px]
                 bg-[url("https://restho-nextjs.vercel.app/assets/images/bg/h2-blog1.png")]
             '>
-                <Link
-                    href="#"
-                    className='
+                        <Link
+                            href="#"
+                            className='
                         rounded-lg 
                         text-white 
                         absolute 
@@ -70,29 +70,29 @@ function OurBlog() {
                         hover:bg-amber-700
                         hover:text-white
                     '>
-                    <h1 
-                        className='
+                            <h1
+                                className='
                             text-amber-700 
                             font-bold 
                             text-xl
                             hover:text-white
                         '
-                    >
-                            17
-                    </h1>
-                    <p 
-                        className='
+                            >
+                                17
+                            </h1>
+                            <p
+                                className='
                             text-amber-700 
                             text-sm
                             hover:text-white
                         '
-                    >
-                        Apr
-                    </p>
-                </Link>
-                </div>
-                <div 
-                    className='
+                            >
+                                Apr
+                            </p>
+                        </Link>
+                    </div>
+                    <div
+                        className='
                     border 
                     border-gray-200 
                     rounded-lg 
@@ -105,27 +105,27 @@ function OurBlog() {
                     md:-mt-20
                     -mt-9
                 '
-            >
-            <div className='flex justify-center mt-8'>
-                <AiOutlineLine
-                    className='text-gray-500 -mt-0.5 w-[30px] h-[30px]'
-                 />
-                <p className='text-gray-500'>By Clone Watson</p>
-            </div>
-            <div className='flex justify-center mt-3'>
-                <h1 
-                    className='
+                    >
+                        <div className='flex justify-center mt-8'>
+                            <AiOutlineLine
+                                className='text-gray-500 -mt-0.5 w-[30px] h-[30px]'
+                            />
+                            <p className='text-gray-500'>By Clone Watson</p>
+                        </div>
+                        <div className='flex justify-center mt-3'>
+                            <h1
+                                className='
                         font-bold
                         font-serif
                         text-xl
                     '
-                >
-                    To make Good Health <br/>Take Nutrition Food.
-                </h1>
-            </div>
-            <div className='flex justify-center mt-4'>
-                <button 
-                    className='
+                            >
+                                To make Good Health <br />Take Nutrition Food.
+                            </h1>
+                        </div>
+                        <div className='flex justify-center mt-4'>
+                            <button
+                                className='
                         bg-white 
                         border 
                         border-amber-600
@@ -133,18 +133,18 @@ function OurBlog() {
                         py-3.5
                         rounded-full
                     '
-                >
-                    <BsArrowRight 
-                        className='
+                            >
+                                <BsArrowRight
+                                    className='
                             text-amber-600
-                        ' 
-                    />
-                </button>
-            </div>
-            </div>
-            </div>
-            <div 
-                className='
+                        '
+                                />
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    className='
                     flex 
                     flex-col 
                     justify-center 
@@ -152,9 +152,9 @@ function OurBlog() {
                     mt-10
                     ml-7
                 '
-            >
-            <div
-                className='
+                >
+                    <div
+                        className='
                 relative
                 md:ml-8
                 m-auto
@@ -167,9 +167,9 @@ function OurBlog() {
                 h-[210px]
                 bg-[url("https://restho-nextjs.vercel.app/assets/images/bg/h2-blog2.png")]
             '>
-                <Link
-                    href="#"
-                    className='
+                        <Link
+                            href="#"
+                            className='
                     rounded-lg 
                     text-white 
                     absolute 
@@ -182,29 +182,29 @@ function OurBlog() {
                     hover:bg-amber-700
                     hover:text-white
                 '>
-                        <h1
-                            className='
+                            <h1
+                                className='
                         text-amber-700 
                         font-bold 
                         text-xl
                         hover:text-white
                     '
-                        >
-                            18
-                        </h1>
-                        <p
-                            className='
+                            >
+                                18
+                            </h1>
+                            <p
+                                className='
                         text-amber-700 
                         text-sm
                         hover:text-white
                     '
-                        >
-                            Apr
-                        </p>
-                    </Link>
-                  </div>
-                  <div
-                      className='
+                            >
+                                Apr
+                            </p>
+                        </Link>
+                    </div>
+                    <div
+                        className='
                     border 
                     border-gray-200 
                     rounded-lg 
@@ -216,27 +216,27 @@ function OurBlog() {
                     md:-mt-20
                     -mt-9
                 '
-                  >
-                      <div className='flex justify-center mt-8'>
-                          <AiOutlineLine
-                              className='text-gray-500 -mt-0.5 w-[30px] h-[30px]'
-                          />
-                          <p className='text-gray-500'>By Hilary Watson</p>
-                      </div>
-                      <div className='flex justify-center mt-3'>
-                          <h1
-                              className='
+                    >
+                        <div className='flex justify-center mt-8'>
+                            <AiOutlineLine
+                                className='text-gray-500 -mt-0.5 w-[30px] h-[30px]'
+                            />
+                            <p className='text-gray-500'>By Hilary Watson</p>
+                        </div>
+                        <div className='flex justify-center mt-3'>
+                            <h1
+                                className='
                         font-bold
                         font-serif
                         text-xl
                     '
-                          >
-                              Eat at Some Nutrition Food <br />& Happy Leadlife.
-                          </h1>
-                      </div>
-                      <div className='flex justify-center mt-4'>
-                          <button
-                              className='
+                            >
+                                Eat at Some Nutrition Food <br />& Happy Leadlife.
+                            </h1>
+                        </div>
+                        <div className='flex justify-center mt-4'>
+                            <button
+                                className='
                         bg-white 
                         border 
                         border-amber-600
@@ -244,18 +244,18 @@ function OurBlog() {
                         py-3.5
                         rounded-full
                     '
-                          >
-                              <BsArrowRight
-                                  className='
+                            >
+                                <BsArrowRight
+                                    className='
                             text-amber-600
                         '
-                              />
-                          </button>
-                      </div>
-                  </div>
-              </div>
-            <div 
-                className='
+                                />
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    className='
                     flex 
                     flex-col 
                     ml-7 
@@ -263,9 +263,9 @@ function OurBlog() {
                     md:mt-0 
                     mt-10
                 '
-            >
-                <div
-                className='
+                >
+                    <div
+                        className='
                     relative
                     md:ml-8
                     m-auto
@@ -278,9 +278,9 @@ function OurBlog() {
                     h-[210px]
                     bg-[url("https://restho-nextjs.vercel.app/assets/images/bg/h2-blog3.png")]
             '>
-            <Link
-                href="#"
-                className='
+                        <Link
+                            href="#"
+                            className='
                     rounded-lg 
                     text-white 
                     absolute 
@@ -293,29 +293,29 @@ function OurBlog() {
                     hover:bg-amber-700
                     hover:text-white
                 '>
-                    <h1
-                        className='
+                            <h1
+                                className='
                     text-amber-700 
                     font-bold 
                     text-xl
                     hover:text-white
                 '
-                    >
-                        17
-                    </h1>
-                    <p
-                    className='
+                            >
+                                17
+                            </h1>
+                            <p
+                                className='
                     text-amber-700 
                     text-sm
                     hover:text-white
                     '
-                    >
-                        Apr
-                    </p>
-                </Link>
-                  </div>
-                  <div
-                      className='
+                            >
+                                Apr
+                            </p>
+                        </Link>
+                    </div>
+                    <div
+                        className='
                     border 
                     border-gray-200 
                     rounded-lg 
@@ -328,27 +328,27 @@ function OurBlog() {
                     md:-mt-20
                     -mt-9
                 '
-                  >
-                      <div className='flex justify-center mt-8'>
-                          <AiOutlineLine
-                              className='text-gray-500 -mt-0.5 w-[30px] h-[30px]'
-                          />
-                          <p className='text-gray-500'>By Clone Watson</p>
-                      </div>
-                      <div className='flex justify-center mt-3'>
-                          <h1
-                              className='
+                    >
+                        <div className='flex justify-center mt-8'>
+                            <AiOutlineLine
+                                className='text-gray-500 -mt-0.5 w-[30px] h-[30px]'
+                            />
+                            <p className='text-gray-500'>By Clone Watson</p>
+                        </div>
+                        <div className='flex justify-center mt-3'>
+                            <h1
+                                className='
                         font-bold
                         font-serif
                         text-xl
                     '
-                          >
-                              Easy To Make Some <br />Special Food in Home.
-                          </h1>
-                      </div>
-                      <div className='flex justify-center mt-4'>
-                          <button
-                              className='
+                            >
+                                Easy To Make Some <br />Special Food in Home.
+                            </h1>
+                        </div>
+                        <div className='flex justify-center mt-4'>
+                            <button
+                                className='
                         bg-white 
                         border 
                         border-amber-600
@@ -356,19 +356,19 @@ function OurBlog() {
                         py-3.5
                         rounded-full
                     '
-                          >
-                              <BsArrowRight
-                                  className='
+                            >
+                                <BsArrowRight
+                                    className='
                             text-amber-600
                         '
-                              />
-                          </button>
-                      </div>
-                  </div>
+                                />
+                            </button>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-    </div>
-  )
+        </div>
+    )
 }
 
 export default OurBlog

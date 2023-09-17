@@ -9,6 +9,7 @@ import Gallery from '@/components/Gallery';
 import Chef from '@/components/Chef';
 import Reservation from '@/components/Reservation';
 import OurBlog from '@/components/OurBlog';
+import Footer from '@/components/Footer';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -25,6 +26,7 @@ export default function Home() {
         <Chef />
         <Reservation />
         <OurBlog />
+        <Footer />
     </div>
   )
 }

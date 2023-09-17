@@ -24,7 +24,7 @@ function HeroBody() {
                         height={20}
                     />
                     <p className='
-                        text-amber-400
+                        text-yellow-600
                         mx-3
                         md:text-lg
                         text-md
@@ -90,10 +90,12 @@ function HeroBody() {
                         sm:ml-0
                     '
                 >
-                    <Image
+                    <img
+                        className='
+                            w-[280px]
+                            h-[280px]
+                        '
                         src="https://restho-nextjs.vercel.app/assets/images/bg/h2-banner-img111.png"
-                        width={300}
-                        height={300}
                         alt='Restho1'
                     />
                 </div>
@@ -103,24 +105,32 @@ function HeroBody() {
                         ml-3
                     '
                     >
-                    <Image
+                    <img
+                        className='
+                            w-[280px]
+                            h-[280px]
+                            ml-1
+                        '
                         src="https://restho-nextjs.vercel.app/assets/images/bg/h2-banner-img333.png"
-                        width={300}
-                        height={300}
                         alt='Restho1'
                     />
-                    <Image
-                        src="https://restho-nextjs.vercel.app/assets/images/bg/h2-banner-img111.png"
-                        width={300}
-                        height={300}
+                    <img
+                        className='
+                            w-[280px]
+                            h-[280px]
+                            ml-2
+                        '
+                          src="https://restho-nextjs.vercel.app/assets/images/bg/h2-banner-img222.png"
                         alt='Restho1'
                     />
                 </div>
                 <div className='md:ml-40 -mt-32'>
-                    <Image
-                        src="https://restho-nextjs.vercel.app/assets/images/bg/h2-banner-img111.png"
-                        width={300}
-                        height={300}
+                    <img
+                        className='
+                            w-[280px]
+                            h-[280px]
+                        '
+                        src="https://restho-nextjs.vercel.app/assets/images/bg/h2-banner-img444.png"
                         alt='Restho1'
                     />
                 </div>
