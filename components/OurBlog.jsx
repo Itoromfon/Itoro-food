@@ -87,7 +87,7 @@ function OurBlog() {
                             hover:text-white
                         '
                     >
-                        April
+                        Apr
                     </p>
                 </Link>
                 </div>
@@ -190,7 +190,7 @@ function OurBlog() {
                         hover:text-white
                     '
                         >
-                            17
+                            18
                         </h1>
                         <p
                             className='
@@ -199,7 +199,7 @@ function OurBlog() {
                         hover:text-white
                     '
                         >
-                            April
+                            Apr
                         </p>
                     </Link>
                   </div>
@@ -222,7 +222,7 @@ function OurBlog() {
                           <AiOutlineLine
                               className='text-gray-500 -mt-0.5 w-[30px] h-[30px]'
                           />
-                          <p className='text-gray-500'>By Clone Watson</p>
+                          <p className='text-gray-500'>By Hilary Watson</p>
                       </div>
                       <div className='flex justify-center mt-3'>
                           <h1
@@ -232,7 +232,7 @@ function OurBlog() {
                         text-xl
                     '
                           >
-                              To make Good Health <br />Take Nutrition Food.
+                              Eat at Some Nutrition Food <br />& Happy Leadlife.
                           </h1>
                       </div>
                       <div className='flex justify-center mt-4'>
@@ -311,7 +311,7 @@ function OurBlog() {
                     hover:text-white
                     '
                     >
-                        April
+                        Apr
                     </p>
                 </Link>
                   </div>
@@ -344,7 +344,7 @@ function OurBlog() {
                         text-xl
                     '
                           >
-                              To make Good Health <br />Take Nutrition Food.
+                              Easy To Make Some <br />Special Food in Home.
                           </h1>
                       </div>
                       <div className='flex justify-center mt-4'>
