@@ -209,7 +209,6 @@ function OurBlog() {
                     border-gray-200 
                     rounded-lg 
                     m-auto
-                    md:px-16 
                     px-10
                     md:pt-24
                     pt-14 
