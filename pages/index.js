@@ -8,6 +8,7 @@ import Launch from '@/components/Launch';
 import Gallery from '@/components/Gallery';
 import Chef from '@/components/Chef';
 import Reservation from '@/components/Reservation';
+import OurBlog from '@/components/OurBlog';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -23,6 +24,7 @@ export default function Home() {
         <Gallery />
         <Chef />
         <Reservation />
+        <OurBlog />
     </div>
   )
 }
