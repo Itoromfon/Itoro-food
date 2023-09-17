@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from 'next/image'
-import { Button } from 'antd'
 import { BsArrowUpRightCircle } from "react-icons/bs"
 
 function Restaurant() {
@@ -85,25 +84,27 @@ function Restaurant() {
               <div className='flex'>
                   <h1 className='font-bold mb-5 md:text-left md:flex text-center font-serif text-2xl md:text-3xl'>Come to Our Restaurant, Ready <br />Your Food.</h1>  
               </div>
-              <div className='m-auto w-96'>
-                  {/* It has survived not only five centuries, but also 
+              <div className='w-96'>
+                  It has survived not only five centuries, but also 
                   the leap into electronic typesetting, remaining 
                   essentially unchanged. It was popularised in the 
                   1960s with the release of Letraset sheets containing 
                   Lorem Ipsum passages, and more recently with desktop 
                   publishing software like Aldus PageMaker including 
-                  versions of Lorem Ipsum. */}
+                  versions of Lorem Ipsum.
               </div>
               <div className='md:flex mt-10'>
                 <div className='flex justify-center'>
-                <Image 
+                <img 
                       src="https://restho-nextjs.vercel.app/assets/images/icon/h2-about1.svg"
-                      width={90}
-                      height={90}
                       className='
                         border border-amber-400
                         rounded-lg
                         p-4
+                        md:w-[90px]
+                        md:h-[90px]
+                        w-[150px]
+                        h-[120px]
                       '
                 />
                 </div>
@@ -122,14 +123,16 @@ function Restaurant() {
               </div>
               <div className='md:flex mt-10'>
                   <div className='flex justify-center'>
-                      <Image
-                          src="https://restho-nextjs.vercel.app/assets/images/icon/h2-about1.svg"
-                          width={90}
-                          height={90}
-                          className='
+                      <img
+                        src="https://restho-nextjs.vercel.app/assets/images/icon/h2-about1.svg"
+                        className='
                         border border-amber-400
                         rounded-lg
                         p-4
+                        md:w-[90px]
+                        md:h-[90px]
+                        w-[150px]
+                        h-[120px]
                       '
                       />
                   </div>
@@ -147,32 +150,29 @@ function Restaurant() {
                   </div>
               </div>
               <div className='mt-10 flex justify-center md:justify-start'>
-                  <Button
-                      width={200}
-                      height={100}
-                      className='
-                    rounded-full
-                    md:text-lg
-                    text-md
-                    text-amber-400
-                    border-amber-400
-                    md:px-10
-                    md:py-4
-                    md:pb-10
-                    px-8
-                    py-3
-                    pb-8
-                    flex
-            '
-                  >
-                      <BsArrowUpRightCircle 
-                        className='
+                  <button 
+                    className='
+                        border
+                        border-yellow-600
+                        text-yellow-600
+                        hover:bg-yellow-600
+                        hover:text-white
+                        font-bold
+                        text-lg
+                        px-10
+                        py-3
+                        rounded-full
+                        cursor-pointer
+                        flex
+                    '>
+                      <BsArrowUpRightCircle
+                          className='
                             mr-3
                             mt-1
                         '
                       />
-                      Discover More
-                  </Button>
+                    Discover More
+                  </button>
               </div>
           </div>
     </div>

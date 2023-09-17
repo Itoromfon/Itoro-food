@@ -124,18 +124,20 @@ function OurBlog() {
                             </h1>
                         </div>
                         <div className='flex justify-center mt-4'>
-                            <button
-                                className='
+                        <button
+                        className='
                         bg-white 
                         border 
                         border-amber-600
+                        hover:bg-amber-600
                         px-16
                         py-3.5
                         rounded-full
-                    '
-                            >
-                                <BsArrowRight
-                                    className='
+                        '
+                        >
+                        <BsArrowRight
+                        className='
+                            hover:text-white
                             text-amber-600
                         '
                                 />
@@ -235,18 +237,20 @@ function OurBlog() {
                             </h1>
                         </div>
                         <div className='flex justify-center mt-4'>
-                            <button
-                                className='
+                        <button
+                        className='
                         bg-white 
                         border 
                         border-amber-600
+                        hover:bg-amber-600
                         px-16
                         py-3.5
                         rounded-full
                     '
                             >
-                                <BsArrowRight
-                                    className='
+                            <BsArrowRight
+                            className='
+                            hover:text-white
                             text-amber-600
                         '
                                 />
@@ -347,19 +351,21 @@ function OurBlog() {
                             </h1>
                         </div>
                         <div className='flex justify-center mt-4'>
-                            <button
-                                className='
+                        <button
+                        className='
                         bg-white 
                         border 
                         border-amber-600
                         px-16
                         py-3.5
                         rounded-full
+                        hover:bg-amber-600
                     '
                             >
-                                <BsArrowRight
-                                    className='
+                            <BsArrowRight
+                            className='
                             text-amber-600
+                            hover:text-white
                         '
                                 />
                             </button>

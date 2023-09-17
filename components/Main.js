@@ -1,14 +1,15 @@
 import React from 'react'
-import Image from 'next/image'
 
 function Main() {
   return (
     <div className='md:flex justify-center mb-20 mt-16 ml'>
     <div className='md:flex'>
     <div className='flex justify-center'>
-        <Image 
-            width={150}
-            height={150}
+        <img
+            className='
+                w-[170px]
+                h-[160px]
+            '
             src="https://restho-nextjs.vercel.app/assets/images/bg/h2-product-1.png"
         />
     </div>
@@ -23,9 +24,11 @@ function Main() {
     </div>
           <div className='md:flex md:ml-5'>
               <div className='flex justify-center'>
-                  <Image
-                      width={150}
-                      height={150}
+                  <img
+                      className='
+                        w-[170px]
+                        h-[160px]
+            '
                       src="https://restho-nextjs.vercel.app/assets/images/bg/h2-product-2.png"
                   />
               </div>
@@ -40,9 +43,11 @@ function Main() {
           </div>
           <div className='md:flex md:ml-5'>
               <div className='flex justify-center'>
-                  <Image
-                      width={150}
-                      height={150}
+                  <img
+                      className='
+                        w-[170px]
+                        h-[160px]
+                    '
                       src="https://restho-nextjs.vercel.app/assets/images/bg/h2-product-3.png"
                   />
               </div>

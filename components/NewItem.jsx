@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
 
 function NewItem() {
   return (
@@ -27,10 +26,12 @@ function NewItem() {
 
                     '
           >
-              <Image
+              <img
+                  className='
+                        w-[20px]
+                        h-[20px]
+                    '
                   src="https://restho-nextjs.vercel.app/assets/images/icon/sub-title-vec.svg"
-                  width={20}
-                  height={20}
               />
               <p className='
                         text-amber-400
@@ -41,10 +42,12 @@ function NewItem() {
               >
                   Our New item
               </p>
-              <Image
+              <img
+                  className='
+                        w-[20px]
+                        h-[20px]
+                    '
                   src="https://restho-nextjs.vercel.app/assets/images/icon/sub-title-vec.svg"
-                  width={20}
-                  height={20}
               />
           </div>
           <div className='flex justify-center mt-5'>
@@ -66,9 +69,13 @@ function NewItem() {
           <div className='md:flex pb-20 justify-center'>
             <div>
                 <div className='flex justify-center'>
-                    <Image
-                          width={250}
-                          height={250}
+                    <img
+                        className='
+                            md:w-[350px]
+                            md:h-[350px]
+                            w-[250px]
+                            h-[250px]
+                        '
                         src="https://restho-nextjs.vercel.app/assets/images/bg/h2-regular-items12.png"
                     />
                 </div>
@@ -90,9 +97,13 @@ function NewItem() {
             </div>
             <div className='ml-10'>
                 <div className='flex justify-center'>
-                    <Image
-                        width={250}
-                        height={250}
+                      <img
+                          className='
+                            md:w-[350px]
+                            md:h-[350px]
+                            w-[250px]
+                            h-[250px]
+                        '
                         src="https://restho-nextjs.vercel.app/assets/images/bg/h2-regular-items13.png"
                     />
                 </div>
@@ -114,9 +125,13 @@ function NewItem() {
             </div>
             <div className='ml-10'>
                 <div className='flex justify-center'>
-                    <Image
-                        width={250}
-                        height={250}
+                      <img
+                          className='
+                            md:w-[350px]
+                            md:h-[350px]
+                            w-[250px]
+                            h-[250px]
+                        '
                         src="https://restho-nextjs.vercel.app/assets/images/bg/h2-regular-items11.png"
 
                     />
