@@ -43,7 +43,7 @@ function OurBlog() {
             <div className='md:flex justify-center mt-10'>
                 <div className='flex flex-col justify-center md:mt-0 mt-10'>
                     <div
-                        className='
+                    className='
                 relative
                 md:ml-8
                 m-auto
@@ -68,7 +68,7 @@ function OurBlog() {
                         top-0 
                         right-0 
                         bg-white 
-                        hover:bg-amber-700
+                        hover:bg-[#bf9444]
                         hover:text-white
                     '>
                             <h1
@@ -182,7 +182,7 @@ function OurBlog() {
                     top-0 
                     right-0 
                     bg-white 
-                    hover:bg-amber-700
+                    hover:bg-[#bf9444]
                     hover:text-white
                 '>
                         <h1
@@ -297,7 +297,7 @@ function OurBlog() {
                     top-0 
                     right-0 
                     bg-white 
-                    hover:bg-amber-700
+                    hover:bg-[#bf9444]
                     hover:text-white
                 '>
                     <h1
