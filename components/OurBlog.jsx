@@ -42,8 +42,8 @@ function OurBlog() {
             </div>
             <div className='md:flex justify-center mt-10'>
                 <div className='flex flex-col justify-center md:mt-0 mt-10'>
-                    <div
-                    className='
+                <div
+                className='
                 relative
                 md:ml-8
                 m-auto
@@ -56,41 +56,44 @@ function OurBlog() {
                 h-[210px]
                 bg-[url("https://restho-nextjs.vercel.app/assets/images/bg/h2-blog1.png")]
             '>
-                        <Link
-                            href="#"
-                            className='
-                        rounded-lg 
-                        text-white 
-                        absolute 
-                        px-4 
-                        py-2 
-                        m-4 
-                        top-0 
-                        right-0 
-                        bg-white 
-                        hover:bg-[#bf9444]
-                        hover:text-white
-                    '>
-                            <h1
-                            className='
-                            text-[#bf9444]
-                            font-bold 
-                            text-xl
-                            hover:text-white
-                        '
-                            >
-                                17
-                            </h1>
-                            <p
-                            className='
-                            text-[#bf9444]
-                            text-sm
-                            hover:text-white
-                            '
-                            >
-                                Apr
-                            </p>
-                        </Link>
+                <button
+                href="#"
+                className='
+                rounded-lg 
+                text-white 
+                absolute 
+                px-4 
+                py-2 
+                m-4 
+                top-0 
+                right-0 
+                bg-white 
+                hover:bg-[#bf9444]
+                hover:text-white
+                transition-colors
+                duration-500
+                ease-linear
+            '>
+                    <h1
+                    className='
+                    text-[#bf9444]
+                    font-bold 
+                    text-xl
+                    hover:text-white
+                '
+                    >
+                        17
+                    </h1>
+                    <p
+                    className='
+                    text-[#bf9444]
+                    text-sm
+                    hover:text-white
+                    '
+                    >
+                        Apr
+                    </p>
+                </button>
                     </div>
                     <div
                         className='
@@ -173,41 +176,44 @@ function OurBlog() {
                 h-[210px]
                 bg-[url("https://restho-nextjs.vercel.app/assets/images/bg/h2-blog2.png")]
             '>
-                    <Link
-                    href="#"
-                    className='
-                    rounded-lg 
-                    text-white 
-                    absolute 
-                    px-4 
-                    py-2 
-                    m-4 
-                    top-0 
-                    right-0 
-                    bg-white 
-                    hover:bg-[#bf9444]
-                    hover:text-white
-                '>
-                        <h1
-                        className='
-                        text-[#bf9444] 
-                        font-bold 
-                        text-xl
-                        hover:text-white
-                        '
+                <button
+                href="#"
+                className='
+                rounded-lg 
+                text-white 
+                absolute 
+                px-4 
+                py-2 
+                m-4 
+                top-0 
+                right-0 
+                bg-white 
+                hover:bg-[#bf9444]
+                transition-colors
+                duration-500
+                ease-linear
+                hover:text-white
+            '>
+                <h1
+                className='
+                text-[#bf9444] 
+                font-bold 
+                text-xl
+                hover:text-white
+                '
+                >
+                    18
+                </h1>
+                <p
+                className='
+                text-[#bf9444] 
+                text-sm
+                hover:text-white
+                '
                         >
-                                18
-                        </h1>
-                        <p
-                        className='
-                        text-[#bf9444] 
-                        text-sm
-                        hover:text-white
-                    '
-                            >
-                                Apr
-                            </p>
-                        </Link>
+                            Apr
+                        </p>
+                    </button>
                     </div>
                     <div
                     className='
@@ -278,7 +284,7 @@ function OurBlog() {
                 '
                 >
                     <div
-                        className='
+                    className='
                     relative
                     md:ml-8
                     m-auto
@@ -291,41 +297,44 @@ function OurBlog() {
                     h-[210px]
                     bg-[url("https://restho-nextjs.vercel.app/assets/images/bg/h2-blog3.png")]
             '>
-                    <Link
-                    href="#"
-                    className='
-                    rounded-lg 
-                    text-white 
-                    absolute 
-                    px-4 
-                    py-2 
-                    m-4 
-                    top-0 
-                    right-0 
-                    bg-white 
-                    hover:bg-[#bf9444]
-                    hover:text-white
-                '>
-                    <h1
-                    className='
-                    text-[#bf9444] 
-                    font-bold 
-                    text-xl
-                    hover:text-white
-                    '
+                <button
+                href="#"
+                className='
+                rounded-lg 
+                text-white 
+                absolute 
+                px-4 
+                py-2 
+                m-4 
+                top-0 
+                right-0 
+                bg-white 
+                hover:bg-[#bf9444]
+                transition-colors
+                duration-500
+                ease-linear
+                hover:text-white
+            '>
+                <h1
+                className='
+                text-[#bf9444] 
+                font-bold 
+                text-xl
+                hover:text-white
+                '
+            >
+                17
+            </h1>
+            <p
+                className='
+                text-[#bf9444]
+                text-sm
+                hover:text-white
+                '
                 >
-                    17
-                </h1>
-                <p
-                    className='
-                    text-[#bf9444]
-                    text-sm
-                    hover:text-white
-                    '
-                    >
-                        Apr
-                    </p>
-                    </Link>
+                    Apr
+                </p>
+                </button>
                     </div>
                     <div
                         className='
