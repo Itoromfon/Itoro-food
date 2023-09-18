@@ -101,11 +101,9 @@ function NavBar() {
                             href="#"
                             className='
                                 text-lg
-                                
-                                text-gray-600
+                                text-gray-700
                                 flex
-                                hover:text-amber-600
-                                font-bold
+                                hover:text-[#bf9444]
                             '
                         >
                             <Space>
@@ -117,7 +115,7 @@ function NavBar() {
                                         h-5
                                         -ml-3
                                         mt-2
-                                        text-gray-600
+                                        text-gray-700
                                         hover:text-gray-600
                             '
                                 />
@@ -129,10 +127,9 @@ function NavBar() {
                         className='
                             text-lg
                             ml-7
-                            text-gray-600
+                            text-gray-700
                             flex
-                            hover:text-amber-600
-                            font-bold
+                            hover:text-[#bf9444]
                         '
                     >
                         About
@@ -143,7 +140,7 @@ function NavBar() {
                                     h-5
                                     -ml-3
                                     mt-2
-                                    text-gray-600
+                                    text-gray-700
                                     hover:text-gray-600
                             '
                           />
@@ -159,10 +156,9 @@ function NavBar() {
                             className='
                                 text-lg
                                 ml-7
-                                text-gray-600
+                                text-gray-700
                                 flex
-                                hover:text-amber-600
-                                font-bold
+                                hover:text-[#bf9444]
                             '
                         >
                             <Space>
@@ -174,7 +170,7 @@ function NavBar() {
                                     h-5
                                     -ml-3
                                     mt-2
-                                    text-gray-600
+                                    text-gray-700
                                     hover:text-gray-600
                         '
                                 />
@@ -192,10 +188,9 @@ function NavBar() {
                             className='
                                 text-lg
                                 ml-7
-                                text-gray-600
+                                text-gray-700
                                 flex
-                                hover:text-amber-600
-                                font-bold
+                                hover:text-[#bf9444]
                             '
                         >
                             <Space>
@@ -207,7 +202,7 @@ function NavBar() {
                                     h-5
                                     -ml-3
                                     mt-2
-                                    text-gray-600
+                                    text-gray-700
                                     hover:text-gray-600
                         '
                                 />
@@ -225,10 +220,9 @@ function NavBar() {
                             className='
                                 text-lg
                                 ml-7
-                                text-gray-600
+                                text-gray-700
                                 flex
-                                hover:text-amber-600
-                                font-bold
+                                hover:text-[#bf9444]
                             '
                         >
                             <Space>
@@ -240,7 +234,7 @@ function NavBar() {
                                     h-5
                                     -ml-3
                                     mt-2
-                                    text-gray-600
+                                    text-gray-700
                                     hover:text-gray-600
                         '
                                 />
@@ -252,10 +246,9 @@ function NavBar() {
                         className='
                             text-lg
                             ml-7
-                            text-gray-600
+                            text-gray-700
                             flex
-                            hover:text-amber-600
-                            font-bold
+                            hover:text-[#bf9444]
                         '
                     >
                         Contact
@@ -266,7 +259,7 @@ function NavBar() {
                                     h-5
                                     -ml-3
                                     mt-2
-                                    text-gray-600
+                                    text-gray-700
                                     hover:text-gray-600
                         '
                         />
