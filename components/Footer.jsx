@@ -26,17 +26,125 @@ function Footer() {
       <div className='md:flex'>
         <div className='flex justify-center md:justify-start'>
       <div>
-        <p className='text-md text-gray-300 mt-8'>Indian Menu</p>
-        <p className='text-md text-gray-300 mt-4'>Menu Item</p>
-        <p className='text-md text-gray-300 mt-4'>Private Event</p>
-        <p className='text-md text-gray-300 mt-4'>Italian Menu</p>
-        <p className='text-md text-gray-300 mt-4'>Best Offer</p>
+        <p 
+          className='
+            text-md 
+            hover:text-[#bf9444]
+            cursor-pointer
+            text-gray-300 
+            mt-8
+            transition-colors
+            duration-500
+            ease-linear
+        '>
+          Indian Menu
+        </p>
+        <p 
+          className='
+          text-md 
+          hover:text-[#bf9444]
+            cursor-pointer
+            text-gray-300 
+            mt-4
+            transition-colors
+            duration-500
+            ease-linear
+          '>
+            Menu Item
+          </p>
+        <p 
+          className='
+          text-md 
+        hover:text-[#bf9444]
+          cursor-pointer
+          text-gray-300 
+          mt-4
+          transition-colors
+          duration-500
+          ease-linear
+          '>
+          Private Event
+        </p>
+        <p 
+          className='
+          text-md 
+          hover:text-[#bf9444]
+          cursor-pointer
+          text-gray-300 
+          mt-4
+          transition-colors
+          duration-500
+          ease-linear
+          '>
+          Italian Menu
+        </p>
+        <p 
+        className='
+        text-md 
+      hover:text-[#bf9444]
+        cursor-pointer
+        text-gray-300 
+        mt-4
+        transition-colors
+        duration-500
+        ease-linear
+        '>
+          Best Offer
+        </p>
       </div>
         <div className='md:ml-16 ml-16'>
-        <p className='text-md text-gray-300 mt-8'>Popular Item</p>
-        <p className='text-md text-gray-300 mt-4'>Regular Menu</p>
-        <p className='text-md text-gray-300 mt-4'>New Food</p>
-        <p className='text-md text-gray-300 mt-4'>Special Offer</p>
+        <p 
+        className='
+        text-md 
+        hover:text-[#bf9444]
+        cursor-pointer
+        text-gray-300 
+        mt-8
+        transition-colors
+        duration-500
+        ease-linear
+        '>
+        Popular Item
+        </p>
+        <p 
+        className='
+        text-md 
+        hover:text-[#bf9444]
+        cursor-pointer
+        text-gray-300 
+        mt-4
+        transition-colors
+        duration-500
+        ease-linear
+        '>
+        Regular Menu
+        </p>
+        <p 
+        className='
+        text-md 
+        hover:text-[#bf9444]
+        cursor-pointer
+        text-gray-300 
+        mt-4
+        transition-colors
+        duration-500
+        ease-linear
+        '>
+          New Food
+        </p>
+        <p 
+          className='
+          text-md 
+          hover:text-[#bf9444]
+          cursor-pointer
+          text-gray-300 
+          mt-4
+          transition-colors
+          duration-500
+          ease-linear
+        '>
+          Special Offer
+        </p>
       </div>
       </div>
       <div 
@@ -101,6 +209,9 @@ function Footer() {
           border
           border-[#bf9444]
           hover:bg-[#bf9444]
+          transition-colors
+          duration-500
+          ease-linear
           p-1.5
           rounded-full
           cursor-pointer
@@ -113,6 +224,9 @@ function Footer() {
             border
             border-[#bf9444]
             hover:bg-[#bf9444]
+            transition-colors
+            duration-500
+            ease-linear
             p-1.5
             rounded-full
             cursor-pointer
@@ -125,6 +239,9 @@ function Footer() {
           border
           border-[#bf9444]
           hover:bg-[#bf9444]
+          transition-colors
+          duration-500
+          ease-linear
           p-1.5
           rounded-full
           cursor-pointer
@@ -137,6 +254,9 @@ function Footer() {
           border
           border-[#bf9444]
           hover:bg-[#bf9444]
+          transition-colors
+          duration-500
+          ease-linear
           p-1.5
           rounded-full
           cursor-pointer
@@ -173,6 +293,9 @@ function Footer() {
         mt-8
         cursor-pointer
         hover:text-[#bf9444]
+        transition-colors
+        duration-500
+        ease-linear
         md:text-left
         text-center
       '>
@@ -193,6 +316,9 @@ function Footer() {
         mt-4
         cursor-pointer
         hover:text-[#bf9444]
+        transition-colors
+        duration-500
+        ease-linear
         md:text-left
         text-center
       '>
@@ -213,6 +339,9 @@ function Footer() {
         mt-8
         cursor-pointer
         hover:text-[#bf9444]
+        transition-colors
+        duration-500
+        ease-linear
         md:text-left
         text-center
       '>
@@ -233,6 +362,9 @@ function Footer() {
         mt-8
         cursor-pointer
         hover:text-[#bf9444]
+        transition-colors
+        duration-500
+          ease-linear
         md:text-left
         text-center
       '>
@@ -259,10 +391,30 @@ function Footer() {
     </div>
       <div className='md:flex md:justify-between mt-4'>
       <div>
-          <p className='md:text-md text-sm text-center text-gray-300'>@Copyright by Egenslab-2023, All Right Reserved.</p>
+          <p className='md:text-md text-sm text-center text-gray-300'>@Copyright by  
+          <span 
+          className='
+            hover:text-[#bf9444]
+            cursor-pointer
+            text-gray-300 
+            mt-4
+            transition-colors
+            duration-500
+            ease-linear
+            ml-1
+          '>Egenslab</span>-2023, All Right Reserved.</p>
       </div>
       <div>
-          <p className='md:text-md text-sm text-center text-gray-300'>Privacy & Policy | Terms and Conditions</p>
+          <p className='md:text-md text-sm text-center text-gray-300'>
+          <span className='
+            hover:text-[#bf9444]
+            cursor-pointer
+            text-gray-300 
+            mt-4
+            transition-colors
+            duration-500
+            ease-linear
+          '>Privacy & Policy</span> | Terms and Conditions</p>
       </div>
     </div>
     </div>

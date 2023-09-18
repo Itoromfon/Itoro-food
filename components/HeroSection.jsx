@@ -52,6 +52,9 @@ function HeroSection() {
                     
                     <p className='
                         hover:text-[#bf9444]
+                        transition-colors
+                        duration-500
+                        ease-linear
                         ml-2
                     '
                     >
@@ -74,6 +77,9 @@ function HeroSection() {
                     </div>
                     <p className='
                         hover:text-[#bf9444]
+                        transition-colors
+                        duration-500
+                        ease-linear
                         ml-2
                         '
                         >

@@ -157,6 +157,9 @@ function Restaurant() {
                         text-[#bf9444]
                         hover:bg-[#bf9444]
                         hover:text-white
+                        transition-colors
+                        duration-500
+                        ease-linear
                         font-bold
                         text-lg
                         px-10

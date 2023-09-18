@@ -14,6 +14,10 @@ function HeroButton() {
           mb-16
           rounded-full
           cursor-pointer
+          bg-black
+          transition-colors
+          duration-500
+          ease-linear
           hover:bg-[#bf9444]
           hover:text-white
           font-bold

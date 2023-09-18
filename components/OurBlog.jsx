@@ -131,6 +131,9 @@ function OurBlog() {
                         border 
                         border-[#bf9444]
                         hover:bg-[#bf9444]
+                        transition-colors
+                        duration-500
+                        ease-linear
                         px-16
                         py-3.5
                         rounded-full
@@ -246,6 +249,9 @@ function OurBlog() {
                         border 
                         border-[#bf9444]
                         hover:bg-[#bf9444]
+                        transition-colors
+                        duration-500
+                        ease-linear
                         px-16
                         py-3.5
                         rounded-full
@@ -285,9 +291,9 @@ function OurBlog() {
                     h-[210px]
                     bg-[url("https://restho-nextjs.vercel.app/assets/images/bg/h2-blog3.png")]
             '>
-                        <Link
-                            href="#"
-                            className='
+                    <Link
+                    href="#"
+                    className='
                     rounded-lg 
                     text-white 
                     absolute 
@@ -363,6 +369,9 @@ function OurBlog() {
                         py-3.5
                         rounded-full
                         hover:bg-[#bf9444]
+                        transition-colors
+                        duration-500
+                        ease-linear
                     '
                             >
                             <BsArrowRight

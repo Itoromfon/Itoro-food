@@ -276,6 +276,10 @@ function NavBar() {
                 className='
                 bg-[#bf9444]
                 hover:bg-black
+                transition-colors
+                duration-500
+                ease-linear
+                ml-2
                 text-white
                 px-10
                 py-3

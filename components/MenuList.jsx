@@ -44,6 +44,9 @@ function MenuList() {
                         text-[#000]
                         hover:bg-[#bf9444]
                         hover:text-#000
+                        transition-colors
+                        duration-500
+                        ease-linear
                         font-bold
                         text-lg
                         px-10

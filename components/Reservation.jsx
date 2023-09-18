@@ -162,6 +162,9 @@ function Reservation() {
                 bg-[#bf9444]
                 hover:bg-[#fff]
                 hover:text-[#bf9444]
+                transition-colors
+                duration-500
+                ease-linear
                 text-white
                 md:px-40
                 px-28
