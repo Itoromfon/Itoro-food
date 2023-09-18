@@ -92,7 +92,7 @@ function Footer() {
           Best Offer
         </p>
       </div>
-        <div className='md:ml-16 ml-16'>
+        <div className='md:ml-16 ml-10'>
         <p 
         className='
         text-md 
@@ -147,11 +147,11 @@ function Footer() {
         </p>
       </div>
       </div>
+      <div className='flex justify-center'>
       <div 
         className='
           flex 
           flex-col
-          mx-auto
           rounded-full
           border
           border-gray-600
@@ -263,6 +263,7 @@ function Footer() {
       '>
         <FaTwitter />
       </div>
+    </div>
     </div>
     </div>
     <div 

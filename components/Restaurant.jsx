@@ -108,7 +108,7 @@ function Restaurant() {
                       '
                 />
                 </div>
-                <div className='flex flex-col ml-5 mt-8'>
+                  <div className='flex flex-col ml-5 md:-mt-1 mt-6'>
                 <h1 
                     className='
                         font-bold 
@@ -119,7 +119,7 @@ function Restaurant() {
                       Pure Fresh Food.
                 </h1>
                   <p className='md:text-lg text-center text-gray-600'>We are serve different <br />type of fresh food.</p>
-                  </div>
+                </div>
               </div>
               <div className='md:flex mt-10'>
                   <div className='flex justify-center'>
@@ -136,9 +136,9 @@ function Restaurant() {
                       '
                       />
                   </div>
-                  <div className='flex flex-col ml-5 mt-8'>
+                  <div className='flex flex-col ml-5 md:-mt-1 mt-6'>
                       <h1
-                          className='
+                        className='
                         font-bold 
                         font-serif
                         text-xl
