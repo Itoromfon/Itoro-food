@@ -6,7 +6,7 @@ import { BsArrowRight } from "react-icons/bs"
 
 function OurBlog() {
     return (
-        <div>
+        <div className='md:mb-44 mb-24'>
             <div
                 className='
                     pt-16

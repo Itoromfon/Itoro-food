@@ -68,12 +68,12 @@ function HeroSection() {
                     <div className='pt-1'>
                           <CiLocationOn
                             className='
-                            text-amber-400
+                            text-[#bf9444]
                             '
                         />
                     </div>
                     <p className='
-                        hover:text-amber-400
+                        hover:text-[#bf9444]
                         ml-2
                         '
                         >

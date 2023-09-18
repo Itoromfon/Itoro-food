@@ -6,8 +6,8 @@ function NewItem() {
         className='
             md:mt-32
             mt-16
-            md:pb-24
-            pb-56
+            md:pb-12
+            pb-20
             bg-cover
             bg-center
             md:flex
@@ -23,9 +23,8 @@ function NewItem() {
                     pt-16
                     flex
                     justify-center
-
-                    '
-          >
+            '
+            >
               <img
                   className='
                         w-[20px]
