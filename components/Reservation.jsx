@@ -106,7 +106,7 @@ function Reservation() {
                 <div className='flex justify-center'>
                   <input
                       type='text'
-                      placeholder='Name*'
+                      placeholder='Phone*'
                       className='
                         bg-gray-800 
                         rounded-full
@@ -123,7 +123,7 @@ function Reservation() {
                   <div className='flex justify-center'>
                   <input
                       type='text'
-                      placeholder='People'
+                      placeholder='Check In'
                       className='
                         bg-gray-800 
                         rounded-full
@@ -140,7 +140,7 @@ function Reservation() {
                   <div className='flex justify-center'>
                   <input
                       type='text'
-                      placeholder='08 : 00 am'
+                      placeholder='Email'
                       className='
                         bg-gray-800 
                         rounded-full
