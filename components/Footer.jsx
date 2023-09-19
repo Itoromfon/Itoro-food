@@ -158,7 +158,7 @@ function Footer() {
           md:w-[300px]
           md:h-[300px]
           w-[300px]
-          h-[260px]
+          h-[265px]
           md:ml-28
           md:-mt-20
           mt-10
@@ -205,7 +205,7 @@ function Footer() {
       />
       <p className='text-[#bf9444]'>__________</p>
     </div>
-      <div className='flex md:ml-16 ml-11 mt-7'>
+      <div className='flex md:ml-16 ml-10 mt-7'>
       <div 
         className='
           border
