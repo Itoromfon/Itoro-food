@@ -175,7 +175,7 @@ function Footer() {
             md:mb-5
             mb-5
             ml-16
-            md:ml-16
+            md:ml-12
           '
       />
       <h1 
@@ -217,7 +217,7 @@ function Footer() {
           p-1.5
           rounded-full
           cursor-pointer
-          md:ml-3
+          md:ml-2
       '>
         <FaFacebookF />
       </div>
