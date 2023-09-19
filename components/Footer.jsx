@@ -173,7 +173,8 @@ function Footer() {
             h-[150px]
             md:mb-5
             mb-5
-            ml-16
+            ml-12
+            md:ml-16
           '
       />
       <h1 
@@ -203,7 +204,7 @@ function Footer() {
       />
       <p className='text-[#bf9444]'>__________</p>
     </div>
-      <div className='flex ml-16 mt-7'>
+            <div className='flex md:ml-16 ml-12 mt-7'>
       <div 
         className='
           border
