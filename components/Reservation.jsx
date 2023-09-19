@@ -8,6 +8,7 @@ function Reservation() {
         className='
             md:mt-32
             mt-16
+            mb-20
             pb-24
             md:flex
             md:flex-col

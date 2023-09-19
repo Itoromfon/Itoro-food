@@ -157,8 +157,8 @@ function Footer() {
           border-gray-600
           md:w-[300px]
           md:h-[300px]
-          w-[300px]
-          h-[265px]
+          w-[280px]
+          h-[280px]
           md:ml-28
           md:-mt-20
           mt-10
@@ -171,16 +171,16 @@ function Footer() {
             md:-h[180px]
             w-[140px]
             h-[140px]
-            md:mt-5
+            md:mt-4
             md:mb-5
             mb-5
-            ml-12
+            ml-16
             md:ml-16
           '
       />
       <h1 
         className='
-        -mt-16
+        -mt-12
         font-bold
         text-lg
         tracking-widest
@@ -205,7 +205,7 @@ function Footer() {
       />
       <p className='text-[#bf9444]'>__________</p>
     </div>
-      <div className='flex md:ml-16 ml-10 mt-7'>
+    <div className='flex md:ml-16 ml-16 mt-7'>
       <div 
         className='
           border
@@ -217,12 +217,13 @@ function Footer() {
           p-1.5
           rounded-full
           cursor-pointer
+          md:ml-3
       '>
         <FaFacebookF />
       </div>
         <div 
           className=' 
-            ml-4
+            ml-3
             border
             border-[#bf9444]
             hover:bg-[#bf9444]
@@ -237,7 +238,7 @@ function Footer() {
       </div>
       <div 
         className=' 
-          ml-4
+          ml-3
           border
           border-[#bf9444]
           hover:bg-[#bf9444]
@@ -252,7 +253,7 @@ function Footer() {
       </div>
       <div 
         className=' 
-          ml-4
+          ml-3
           border
           border-[#bf9444]
           hover:bg-[#bf9444]
