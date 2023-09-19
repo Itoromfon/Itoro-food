@@ -157,8 +157,8 @@ function Footer() {
           border-gray-600
           md:w-[300px]
           md:h-[300px]
-          w-[280px]
-          h-[280px]
+          w-[300px]
+          h-[260px]
           md:ml-28
           md:-mt-20
           mt-10
@@ -169,8 +169,9 @@ function Footer() {
           className='
             md:w-[180px]
             md:-h[180px]
-            w-[150px]
-            h-[150px]
+            w-[140px]
+            h-[140px]
+            md:mt-5
             md:mb-5
             mb-5
             ml-12
@@ -204,7 +205,7 @@ function Footer() {
       />
       <p className='text-[#bf9444]'>__________</p>
     </div>
-            <div className='flex md:ml-16 ml-12 mt-7'>
+      <div className='flex md:ml-16 ml-11 mt-7'>
       <div 
         className='
           border
