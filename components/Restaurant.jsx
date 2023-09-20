@@ -82,9 +82,22 @@ function Restaurant() {
                   />
               </div>
               <div className='flex'>
-                  <h1 className='font-bold mb-5 xl:text-left xl:flex text-center font-serif text-2xl xl:text-3xl'>Come to Our Restaurant, Ready <br />Your Food.</h1>  
+                  <h1 
+                    className='
+                    font-bold 
+                    mb-5 
+                    xl:text-left 
+                    xl:flex 
+                    text-center 
+                    font-serif 
+                    text-2xl 
+                    xl:text-3xl
+                    '>
+                      Come to Our Restaurant, <br />Ready Your Food.
+                    </h1>  
               </div>
-              <div className='w-96'>
+              <div className='xl:w-96 w-64 mx-auto'>
+                <p className='xl:text-left text-center'>   
                   It has survived not only five centuries, but also 
                   the leap into electronic typesetting, remaining 
                   essentially unchanged. It was popularised in the 
@@ -92,6 +105,7 @@ function Restaurant() {
                   Lorem Ipsum passages, and more recently with desktop 
                   publishing software like Aldus PageMaker including 
                   versions of Lorem Ipsum.
+                </p>
               </div>
               <div className='xl:flex mt-10'>
                 <div className='flex justify-center'>
