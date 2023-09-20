@@ -5,8 +5,8 @@ function Gallery() {
     <div className='mt-20'>
           <div
               className='
-                        md:flex
-                        md:ml-20
+                        xl:flex
+                        xl:ml-20
                         flex
                         justify-center
                     '
@@ -21,8 +21,10 @@ function Gallery() {
               <p className='
                         text-[#bf9444]
                         mx-3
-                        md:text-lg
+                        xl:text-lg
                         text-md
+                        xl:-mt-1.5
+                        -mt-1
                     '
               >
                   Gallery Store
@@ -36,14 +38,14 @@ function Gallery() {
               />
           </div>
           <div className='flex justify-center mt-5'>
-            <h1 className='font-bold font-serif text-3xl md:text-5xl'>Our Special Gallery</h1>
+            <h1 className='font-bold font-serif text-3xl xl:text-5xl'>Our Special Gallery</h1>
           </div>
-          <div className='md:flex justify-center mt-11'>
+          <div className='xl:flex justify-center mt-11'>
           <div className='flex justify-center'>
           <img
             className='
-                    md:w-[400px]
-                    md:h-[330px]
+                    xl:w-[400px]
+                    xl:h-[330px]
                     w-[350px]
                     h-[250px]
                   '
@@ -53,8 +55,8 @@ function Gallery() {
           <div className='flex justify-center'>
           <img
             className='
-                    md:w-[400px]
-                    md:h-[330px]
+                    xl:w-[400px]
+                    xl:h-[330px]
                     w-[350px]
                     h-[250px]
                     mt-4 
@@ -66,8 +68,8 @@ function Gallery() {
            <div className='flex justify-center'>
           <img
             className='
-                    md:w-[400px]
-                    md:h-[330px]
+                    xl:w-[400px]
+                    xl:h-[330px]
                     w-[350px]
                     h-[250px]
                   '

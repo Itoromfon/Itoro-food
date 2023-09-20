@@ -4,13 +4,13 @@ import { BsArrowUpRightCircle } from "react-icons/bs"
 
 function Restaurant() {
   return (
-    <div className='flex justify-between mx-10 md:mx-28'>
-          <div className='hidden md:flex'>
-              <div className='md:ml-10'>
+    <div className='flex justify-between mx-10 xl:mx-28'>
+          <div className='hidden xl:flex'>
+              <div className='xl:ml-10'>
                   <div
                       className='
-                        md:ml-28
-                        md:-mb-24
+                        xl:ml-28
+                        xl:-mb-24
                         sm:ml-0
                     '
                   >
@@ -40,7 +40,7 @@ function Restaurant() {
                           alt='Restho1'
                       />
                   </div>
-                  <div className='md:ml-28 -mt-24'>
+                  <div className='xl:ml-28 -mt-24'>
                       <Image
                           src="https://restho-nextjs.vercel.app/assets/images/bg/h2-about-img4.png"
                           width={200}
@@ -50,12 +50,12 @@ function Restaurant() {
                   </div>
               </div>
           </div>
-          <div className='md:ml-28 md:flex flex-col m-auto'>
+          <div className='xl:ml-28 xl:flex flex-col m-auto'>
               <div
                   className='
-                        md:flex
-                        md:mb-5
-                        md:justify-start
+                        xl:flex
+                        xl:mb-5
+                        xl:justify-start
                         flex
                         justify-center
                         mb-8
@@ -69,8 +69,8 @@ function Restaurant() {
                   <p className='
                         text-[#bf9444]
                         mx-3
-                        md:text-lg
-                        text-md
+                        xl:text-lg
+                        text-lg
                     '
                   >
                       About to Restho
@@ -82,7 +82,7 @@ function Restaurant() {
                   />
               </div>
               <div className='flex'>
-                  <h1 className='font-bold mb-5 md:text-left md:flex text-center font-serif text-2xl md:text-3xl'>Come to Our Restaurant, Ready <br />Your Food.</h1>  
+                  <h1 className='font-bold mb-5 xl:text-left xl:flex text-center font-serif text-2xl xl:text-3xl'>Come to Our Restaurant, Ready <br />Your Food.</h1>  
               </div>
               <div className='w-96'>
                   It has survived not only five centuries, but also 
@@ -93,7 +93,7 @@ function Restaurant() {
                   publishing software like Aldus PageMaker including 
                   versions of Lorem Ipsum.
               </div>
-              <div className='md:flex mt-10'>
+              <div className='xl:flex mt-10'>
                 <div className='flex justify-center'>
                 <img 
                       src="https://restho-nextjs.vercel.app/assets/images/icon/h2-about1.svg"
@@ -101,14 +101,14 @@ function Restaurant() {
                         border border-[#bf9444]
                         rounded-lg
                         p-4
-                        md:w-[90px]
-                        md:h-[90px]
+                        xl:w-[90px]
+                        xl:h-[90px]
                         w-[150px]
                         h-[120px]
                       '
                 />
                 </div>
-                  <div className='flex flex-col ml-5 md:-mt-1 mt-6'>
+                  <div className='flex flex-col ml-5 xl:-mt-1 mt-6'>
                 <h1 
                     className='
                         font-bold 
@@ -118,10 +118,10 @@ function Restaurant() {
                     '>
                       Pure Fresh Food.
                 </h1>
-                  <p className='md:text-lg text-center text-gray-600'>We are serve different <br />type of fresh food.</p>
+                  <p className='xl:text-lg text-center text-gray-600'>We are serve different <br />type of fresh food.</p>
                 </div>
               </div>
-              <div className='md:flex mt-10'>
+              <div className='xl:flex mt-10'>
                   <div className='flex justify-center'>
                       <img
                         src="https://restho-nextjs.vercel.app/assets/images/icon/h2-about1.svg"
@@ -129,14 +129,14 @@ function Restaurant() {
                         border border-[#bf9444]
                         rounded-lg
                         p-4
-                        md:w-[90px]
-                        md:h-[90px]
+                        xl:w-[90px]
+                        xl:h-[90px]
                         w-[150px]
                         h-[120px]
                       '
                       />
                   </div>
-                  <div className='flex flex-col ml-5 md:-mt-1 mt-6'>
+                  <div className='flex flex-col ml-5 xl:-mt-1 mt-6'>
                       <h1
                         className='
                         font-bold 
@@ -146,10 +146,10 @@ function Restaurant() {
                     '>
                           Experties Chef.
                       </h1>
-                      <p className='md:text-lg text-center text-gray-600'>We are serve different <br />type of fresh food.</p>
+                      <p className='xl:text-lg text-center text-gray-600'>We are serve different <br />type of fresh food.</p>
                   </div>
               </div>
-              <div className='mt-10 flex justify-center md:justify-start'>
+              <div className='mt-10 flex justify-center xl:justify-start'>
                   <button 
                     className='
                         border

@@ -6,15 +6,15 @@ import { BsArrowRight } from "react-icons/bs"
 
 function OurBlog() {
     return (
-        <div className='md:mb-44 mb-24'>
+        <div className='xl:mb-44 mb-24'>
             <div
                 className='
                     pt-16
-                    md:flex
-                    md:ml-20
+                    xl:flex
+                    xl:ml-20
                     flex
                     justify-center
-                    '
+                '
             >
                 <Image
                     src="https://restho-nextjs.vercel.app/assets/images/icon/sub-title-vec.svg"
@@ -24,7 +24,7 @@ function OurBlog() {
                 <p className='
                         text-[#bf9444]
                         mx-3
-                        md:text-lg
+                        xl:text-lg
                         text-md
                         -mt-1
                     '
@@ -38,20 +38,20 @@ function OurBlog() {
                 />
             </div>
             <div className='flex justify-center mt-7'>
-                <h1 className='font-bold font-serif text-3xl md:text-5xl'>Our Latest Blog</h1>
+                <h1 className='font-bold font-serif text-3xl xl:text-5xl'>Our Latest Blog</h1>
             </div>
-            <div className='md:flex justify-center mt-10'>
-                <div className='flex flex-col justify-center md:mt-0 mt-10'>
+            <div className='xl:flex justify-center mt-10'>
+                <div className='flex flex-col justify-center xl:mt-0 mt-10'>
                 <div
                 className='
                 relative
-                md:ml-8
+                xl:ml-8
                 m-auto
                 rounded-lg
                 bg-center
                 bg-cover
-                md:w-[300px]
-                md:h-[250px]
+                xl:w-[300px]
+                xl:h-[250px]
                 w-[270px]
                 h-[210px]
                 bg-[url("https://restho-nextjs.vercel.app/assets/images/bg/h2-blog1.png")]
@@ -101,12 +101,12 @@ function OurBlog() {
                     border-gray-200 
                     rounded-lg 
                     m-auto
-                    md:px-16 
+                    xl:px-16 
                     px-10
-                    md:pt-24
+                    xl:pt-24
                     pt-14 
                     pb-8
-                    md:-mt-20
+                    xl:-mt-20
                     -mt-9
                 '
                     >
@@ -157,7 +157,7 @@ function OurBlog() {
                     flex 
                     flex-col 
                     justify-center 
-                    md:mt-0 
+                    xl:mt-0 
                     mt-10
                     ml-7
                 '
@@ -165,13 +165,13 @@ function OurBlog() {
                 <div
                 className='
                 relative
-                md:ml-9
+                xl:ml-9
                 m-auto
                 rounded-lg
                 bg-center
                 bg-cover
-                md:w-[300px]
-                md:h-[250px]
+                xl:w-[300px]
+                xl:h-[250px]
                 w-[270px]
                 h-[210px]
                 bg-[url("https://restho-nextjs.vercel.app/assets/images/bg/h2-blog2.png")]
@@ -220,14 +220,14 @@ function OurBlog() {
                     border 
                     border-gray-200 
                     rounded-lg 
-                    md:ml-0
+                    xl:ml-0
                     m-auto
-                    md:px-10
+                    xl:px-10
                     px-3
-                    md:pt-24
+                    xl:pt-24
                     pt-14 
                     pb-8
-                    md:-mt-20
+                    xl:-mt-20
                     -mt-9
                 '
                     >
@@ -238,8 +238,8 @@ function OurBlog() {
                             <p className='text-gray-500'>By Hilary Watson</p>
                         </div>
                         <div className='flex justify-center mt-3'>
-                            <h1
-                                className='
+                        <h1
+                        className='
                         font-bold
                         font-serif
                         text-xl
@@ -262,7 +262,7 @@ function OurBlog() {
                         py-3.5
                         rounded-full
                     '
-                            >
+                    >
                             <BsArrowRight
                             className='
                             hover:text-white
@@ -279,20 +279,20 @@ function OurBlog() {
                     flex-col 
                     ml-7 
                     justify-center 
-                    md:mt-0 
+                    xl:mt-0 
                     mt-10
                 '
                 >
                     <div
                     className='
                     relative
-                    md:ml-8
+                    xl:ml-8
                     m-auto
                     rounded-lg
                     bg-center
                     bg-cover
-                    md:w-[300px]
-                    md:h-[250px]
+                    xl:w-[300px]
+                    xl:h-[250px]
                     w-[270px]
                     h-[210px]
                     bg-[url("https://restho-nextjs.vercel.app/assets/images/bg/h2-blog3.png")]
@@ -337,17 +337,17 @@ function OurBlog() {
                 </button>
                     </div>
                     <div
-                        className='
+                    className='
                     border 
                     border-gray-200 
                     rounded-lg 
                     m-auto
-                    md:px-16 
+                    xl:px-16 
                     px-10
-                    md:pt-24
+                    xl:pt-24
                     pt-14 
                     pb-8
-                    md:-mt-20
+                    xl:-mt-20
                     -mt-9
                 '
                     >
@@ -358,8 +358,8 @@ function OurBlog() {
                             <p className='text-gray-500'>By Clone Watson</p>
                         </div>
                         <div className='flex justify-center mt-3'>
-                            <h1
-                                className='
+                        <h1
+                        className='
                         font-bold
                         font-serif
                         text-xl

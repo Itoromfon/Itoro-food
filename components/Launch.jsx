@@ -5,18 +5,18 @@ import { BsArrowRight } from 'react-icons/bs'
 function Launch() {
   return (
     <div>
-          <div className='md:flex justify-center mt-10'>
-              <div className='flex flex-col justify-center md:mt-0 mt-10'>
+          <div className='xl:flex justify-center mt-10'>
+              <div className='flex flex-col justify-center xl:mt-0 mt-10'>
                 <div
                 className='
                 relative
-                md:ml-0
+                xl:ml-0
                 m-auto
                 rounded-lg
                 bg-center
                 bg-cover
-                md:w-[362px]
-                md:h-[250px]
+                xl:w-[362px]
+                xl:h-[250px]
                 w-[314px]
                 h-[210px]
                 bg-[url("https://restho-nextjs.vercel.app/assets/images/bg/h2-food-item-1.png")]
@@ -84,12 +84,12 @@ function Launch() {
                     border-gray-200 
                     rounded-lg 
                     m-auto
-                    md:px-16 
+                    xl:px-16 
                     px-10
-                    md:pt-24
+                    xl:pt-24
                     pt-14 
                     pb-8
-                    md:-mt-20
+                    xl:-mt-20
                     -mt-9
                 '
                   >
@@ -116,7 +116,7 @@ function Launch() {
                     flex 
                     flex-col 
                     justify-center 
-                    md:mt-0 
+                    xl:mt-0 
                     mt-10
                     ml-7
                 '
@@ -124,20 +124,20 @@ function Launch() {
                 <div
                 className='
                 relative
-                md:ml-0
+                xl:ml-0
                 m-auto
                 rounded-lg
                 bg-center
                 bg-cover
-                md:w-[363px]
-                md:h-[250px]
+                xl:w-[363px]
+                xl:h-[250px]
                 w-[314px]
                 h-[210px]
                 bg-[url("https://restho-nextjs.vercel.app/assets/images/bg/h2-food-item-2.png")]
             '>
                       <button
-                          href="#"
-                          className='
+                        href="#"
+                        className='
                         rounded-l-full
                         mt-4
                         absolute 
@@ -193,23 +193,23 @@ function Launch() {
                       </button>
                   </div>
                   <div
-                      className='
+                    className='
                     border 
                     border-gray-200 
                     rounded-lg 
                     m-auto
-                    md:px-16 
+                    xl:px-16 
                     px-10
-                    md:pt-24
+                    xl:pt-24
                     pt-14 
                     pb-8
-                    md:-mt-20
+                    xl:-mt-20
                     -mt-9
                 '
                   >
                       <div className='flex justify-center mt-3'>
-                          <h1
-                            className='
+                        <h1
+                        className='
                         font-bold
                         font-serif
                         text-xl
@@ -231,27 +231,27 @@ function Launch() {
                     flex-col 
                     ml-7 
                     justify-center 
-                    md:mt-0 
+                    xl:mt-0 
                     mt-10
                 '
               >
                   <div
-                      className='
+                    className='
                     relative
-                    md:ml-0
+                    xl:ml-0
                     m-auto
                     rounded-lg
                     bg-center
                     bg-cover
-                    md:w-[362px]
-                    md:h-[250px]
+                    xl:w-[362px]
+                    xl:h-[250px]
                     w-[314px]
                     h-[210px]
                     bg-[url("https://restho-nextjs.vercel.app/assets/images/bg/h2-food-item-3.png")]
             '>
                       <button
-                          href="#"
-                          className='
+                        href="#"
+                        className='
                         rounded-l-full
                         mt-4
                         absolute 
@@ -262,7 +262,7 @@ function Launch() {
                         bg-white 
                     '>
                           <p
-                              className='
+                            className='
                             text-gray-700
                             text-lg
                             font-bold
@@ -282,8 +282,8 @@ function Launch() {
                         mt-5
                     '>
                       <button
-                          href="#"
-                          className='
+                        href="#"
+                        className='
                         rounded-full
                         absolute 
                         px-4 
@@ -294,7 +294,7 @@ function Launch() {
                         border-gray-200
                     '>
                           <p
-                              className='
+                            className='
                             text-[#bf9444]
                             text-xl
                             px-7
@@ -307,23 +307,23 @@ function Launch() {
                       </button>
                   </div>
                   <div
-                      className='
+                    className='
                     border 
                     border-gray-200 
                     rounded-lg 
                     m-auto
-                    md:px-16 
+                    xl:px-16 
                     px-10
-                    md:pt-24
+                    xl:pt-24
                     pt-14 
                     pb-8
-                    md:-mt-20
+                    xl:-mt-20
                     -mt-9
                 '
                   >
                       <div className='flex justify-center mt-3'>
-                          <h1
-                              className='
+                        <h1
+                        className='
                         font-bold
                         font-serif
                         text-xl
@@ -352,25 +352,25 @@ function Launch() {
 
 
           
-          <div className='md:flex justify-center mt-10'>
-              <div className='flex flex-col justify-center md:mt-0 mt-10'>
+          <div className='xl:flex justify-center mt-10'>
+              <div className='flex flex-col justify-center xl:mt-0 mt-10'>
                 <div
                 className='
                 relative
-                md:ml-0
+                xl:ml-0
                 m-auto
                 rounded-lg
                 bg-center
                 bg-cover
-                md:w-[362px]
-                md:h-[250px]
+                xl:w-[362px]
+                xl:h-[250px]
                 w-[314px]
                 h-[210px]
                 bg-[url("https://restho-nextjs.vercel.app/assets/images/bg/h2-food-item-4.png")]
             '>
                       <button
-                          href="#"
-                          className='
+                        href="#"
+                        className='
                         rounded-l-full
                         mt-4
                         absolute 
@@ -381,7 +381,7 @@ function Launch() {
                         bg-white 
                     '>
                           <p
-                              className='
+                            className='
                             text-gray-700
                             text-lg
                             font-bold
@@ -401,8 +401,8 @@ function Launch() {
                         mt-5
                     '>
                       <button
-                          href="#"
-                          className='
+                        href="#"
+                        className='
                         rounded-full
                         absolute 
                         px-4 
@@ -413,7 +413,7 @@ function Launch() {
                         border-gray-200
                     '>
                           <p
-                              className='
+                            className='
                             text-[#bf9444]
                             text-xl
                             px-7
@@ -426,23 +426,23 @@ function Launch() {
                       </button>
                   </div>
                   <div
-                      className='
+                    className='
                     border 
                     border-gray-200 
                     rounded-lg 
                     m-auto
-                    md:px-16 
+                    xl:px-16 
                     px-10
-                    md:pt-24
+                    xl:pt-24
                     pt-14 
                     pb-8
-                    md:-mt-20
+                    xl:-mt-20
                     -mt-9
                 '
                   >
                       <div className='flex justify-center mt-3'>
-                          <h1
-                              className='
+                        <h1
+                        className='
                         font-bold
                         font-serif
                         text-xl
@@ -463,28 +463,28 @@ function Launch() {
                     flex 
                     flex-col 
                     justify-center 
-                    md:mt-0 
+                    xl:mt-0 
                     mt-10
                     ml-7
                 '
               >
-                  <div
-                      className='
+              <div
+                className='
                 relative
-                md:ml-0
+                xl:ml-0
                 m-auto
                 rounded-lg
                 bg-center
                 bg-cover
-                md:w-[363px]
-                md:h-[250px]
+                xl:w-[363px]
+                xl:h-[250px]
                 w-[314px]
                 h-[210px]
                 bg-[url("https://restho-nextjs.vercel.app/assets/images/bg/h2-food-item-5.png")]
             '>
                       <button
-                          href="#"
-                          className='
+                        href="#"
+                        className='
                         rounded-l-full
                         mt-4
                         absolute 
@@ -495,7 +495,7 @@ function Launch() {
                         bg-white 
                     '>
                           <p
-                              className='
+                            className='
                             text-gray-700
                             text-lg
                             font-bold
@@ -515,8 +515,8 @@ function Launch() {
                         mt-5
                         '>
                       <button
-                          href="#"
-                          className='
+                        href="#"
+                        className='
                         rounded-full
                         absolute 
                         px-4 
@@ -527,7 +527,7 @@ function Launch() {
                         border-gray-200
                     '>
                           <p
-                              className='
+                            className='
                             text-[#bf9444]
                             text-xl
                             px-7
@@ -545,18 +545,18 @@ function Launch() {
                     border-gray-200 
                     rounded-lg 
                     m-auto
-                    md:px-16 
+                    xl:px-16 
                     px-10
-                    md:pt-24
+                    xl:pt-24
                     pt-14 
                     pb-8
-                    md:-mt-20
+                    xl:-mt-20
                     -mt-9
                 '
                   >
                       <div className='flex justify-center mt-3'>
-                          <h1
-                              className='
+                        <h1
+                        className='
                         font-bold
                         font-serif
                         text-xl
@@ -578,27 +578,27 @@ function Launch() {
                     flex-col 
                     ml-7 
                     justify-center 
-                    md:mt-0 
+                    xl:mt-0 
                     mt-10
                 '
               >
                   <div
-                      className='
+                    className='
                     relative
-                    md:ml-0
+                    xl:ml-0
                     m-auto
                     rounded-lg
                     bg-center
                     bg-cover
-                    md:w-[362px]
-                    md:h-[250px]
+                    xl:w-[362px]
+                    xl:h-[250px]
                     w-[314px]
                     h-[210px]
                     bg-[url("https://restho-nextjs.vercel.app/assets/images/bg/h2-food-item-6.png")]
             '>
                       <button
-                          href="#"
-                          className='
+                        href="#"
+                        className='
                         rounded-l-full
                         mt-4
                         absolute 
@@ -609,7 +609,7 @@ function Launch() {
                         bg-white 
                     '>
                           <p
-                              className='
+                            className='
                             text-gray-700
                             text-lg
                             font-bold
@@ -629,8 +629,8 @@ function Launch() {
                         mt-5
                     '>
                       <button
-                          href="#"
-                          className='
+                        href="#"
+                        className='
                         rounded-full
                         absolute 
                         px-4 
@@ -641,7 +641,7 @@ function Launch() {
                         border-gray-200
                     '>
                           <p
-                              className='
+                            className='
                             text-[#bf9444]
                             text-xl
                             px-7
@@ -654,23 +654,23 @@ function Launch() {
                       </button>
                   </div>
                   <div
-                      className='
+                    className='
                     border 
                     border-gray-200 
                     rounded-lg 
                     m-auto
-                    md:px-16 
+                    xl:px-16 
                     px-10
-                    md:pt-24
+                    xl:pt-24
                     pt-14 
                     pb-8
-                    md:-mt-20
+                    xl:-mt-20
                     -mt-9
                 '
                   >
                       <div className='flex justify-center mt-3'>
-                          <h1
-                              className='
+                        <h1
+                        className='
                         font-bold
                         font-serif
                         text-xl

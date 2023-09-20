@@ -143,7 +143,7 @@ function DownMenu() {
     <div>
           <Dropdown
               className="
-                            cursor-pointer
+                        cursor-pointer
                         "
               menu={{
                   items,
@@ -154,11 +154,10 @@ function DownMenu() {
 
                   <AiOutlineMenu
                       className="
-                                        text-md
-                                        text-black
-                                        md:hidden
-                                        md:
-                                    "
+                                text-md
+                                text-black
+                                xl:hidden
+                            "
                       size={22}
                   />
               </a>

@@ -7,15 +7,14 @@ import HeroButton from './HeroButton'
 function HeroBody() {
   return (
     <div className='flex justify-center'>
-        <div className='md:mt-40 mt-28'>
+        <div className='xl:mt-40 mt-28'>
                 <div
                     className='
-                        md:flex
-                        md:ml-20
-                        md:justify-start
+                        xl:flex
+                        xl:ml-20
+                        xl:justify-start
                         flex
                         justify-center
-
                     '
                 >
                     <Image
@@ -49,16 +48,16 @@ function HeroBody() {
                         flex
                         justify-center
                         text-center 
-                        md:text-left    
+                        xl:text-left    
                     '
                       >
                       Find Your Best Healthy <br /> & Tasty Food.
                       </h1>
                 <p className='
                     text-white 
-                    md:mt-11 
-                    md:text-lg
-                    md:justify-start
+                    xl:mt-11 
+                    xl:text-lg
+                    xl:justify-start
                     text-sm
                     flex
                     justify-center
@@ -72,8 +71,8 @@ function HeroBody() {
             </div>
             <div 
                 className='
-                    md:ml-20
-                    md:justify-start 
+                    xl:ml-20
+                    xl:justify-start 
                     mt-11
                     flex
                     justify-center
@@ -81,19 +80,20 @@ function HeroBody() {
                 <HeroButton />
             </div>
         </div>
-        <div className='hidden md:flex'>
+        <div className='hidden xl:flex'>
             <div className='md:ml-10'>
                 <div 
                     className='
                         md:ml-40
                         md:-mb-32
-                        sm:ml-0
                     '
                 >
                     <img
                         className='
-                            w-[280px]
-                            h-[280px]
+                            xl:w-[280px]
+                            xl:h-[280px]
+                            w-[250px]
+                            h-[250px]
                         '
                         src="https://restho-nextjs.vercel.app/assets/images/bg/h2-banner-img111.png"
                         alt='Restho1'
@@ -107,8 +107,10 @@ function HeroBody() {
                     >
                     <img
                         className='
-                            w-[280px]
-                            h-[280px]
+                            xl:w-[280px]
+                            xl:h-[280px]
+                            w-[250px]
+                            h-[250px]
                             ml-1
                         '
                         src="https://restho-nextjs.vercel.app/assets/images/bg/h2-banner-img333.png"
@@ -116,8 +118,10 @@ function HeroBody() {
                     />
                     <img
                         className='
-                            w-[280px]
-                            h-[280px]
+                            xl:w-[280px]
+                            xl:h-[280px]
+                            w-[250px]
+                            h-[250px]
                             ml-2
                         '
                           src="https://restho-nextjs.vercel.app/assets/images/bg/h2-banner-img222.png"
@@ -127,8 +131,10 @@ function HeroBody() {
                 <div className='md:ml-40 -mt-32'>
                     <img
                         className='
-                            w-[280px]
-                            h-[280px]
+                            xl:w-[280px]
+                            xl:h-[280px]
+                            w-[250px]
+                            h-[250px]
                         '
                         src="https://restho-nextjs.vercel.app/assets/images/bg/h2-banner-img444.png"
                         alt='Restho1'

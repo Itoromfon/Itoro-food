@@ -4,22 +4,22 @@ function NewItem() {
   return (
     <div 
         className='
-            md:mt-32
+            xl:mt-32
             mt-16
-            md:pb-12
+            xl:pb-12
             pb-20
             bg-cover
             bg-center
-            md:flex
-            md:flex-col
+            xl:flex
+            xl:flex-col
             bg-[url("https://restho-nextjs.vercel.app/_next/static/media/h2-regular-items-bg.28bec6e3.png")]
     '>
           <div
               className='
-                    md:flex
-                    md:mb-5
-                    md:justify-center
-                    md:pt-24
+                    xl:flex
+                    xl:mb-5
+                    xl:justify-center
+                    xl:pt-24
                     pt-16
                     flex
                     justify-center
@@ -35,7 +35,7 @@ function NewItem() {
               <p className='
                         text-[#bf9444]
                         mx-3
-                        md:text-lg
+                        xl:text-lg
                         text-md
                         -mt-1
                     '
@@ -54,25 +54,25 @@ function NewItem() {
             <h1 className='
                 font-bold 
                 font-serif 
-                md:text-5xl
+                xl:text-5xl
                 text-3xl
                 text-white
             '>
                 Restho New Item List
             </h1>
           </div>
-          <div className='flex mx-5 justify-center mt-3 md:mt-5'>
-            <p className='text-white text-center text-sm md:text-lg'>
+          <div className='flex mx-5 justify-center mt-3 xl:mt-5'>
+            <p className='text-white text-center text-sm xl:text-lg'>
                   Various versions have evolved over the years, sometimes on purpose.
             </p>
           </div>
-          <div className='md:flex pb-20 justify-center'>
+          <div className='xl:flex pb-20 justify-center'>
             <div>
                 <div className='flex justify-center'>
                     <img
                         className='
-                            md:w-[350px]
-                            md:h-[350px]
+                            xl:w-[350px]
+                            xl:h-[350px]
                             w-[250px]
                             h-[250px]
                         '
@@ -85,7 +85,7 @@ function NewItem() {
                             text-white
                             font-bold
                             font-serif
-                            md:text-2xl
+                            xl:text-2xl
                             text-xl
                         '>
                         Prawn with Noodles
@@ -99,8 +99,8 @@ function NewItem() {
                 <div className='flex justify-center'>
                       <img
                           className='
-                            md:w-[350px]
-                            md:h-[350px]
+                            xl:w-[350px]
+                            xl:h-[350px]
                             w-[250px]
                             h-[250px]
                         '
@@ -113,7 +113,7 @@ function NewItem() {
                             text-white
                             font-bold
                             font-serif
-                            md:text-2xl
+                            xl:text-2xl
                             text-xl
                         '>
                           Soup with Egg
@@ -127,8 +127,8 @@ function NewItem() {
                 <div className='flex justify-center'>
                       <img
                           className='
-                            md:w-[350px]
-                            md:h-[350px]
+                            xl:w-[350px]
+                            xl:h-[350px]
                             w-[250px]
                             h-[250px]
                         '
@@ -142,7 +142,7 @@ function NewItem() {
                             text-white
                             font-bold
                             font-serif
-                            md:text-2xl
+                            xl:text-2xl
                             text-xl
                         '>
                           Prawn Fried

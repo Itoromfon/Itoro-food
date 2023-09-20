@@ -65,7 +65,7 @@ const items = [
 
 function NavBar() {
   return (
-    <div className='md:flex'>
+      <div className='xl:flex'>
         <nav 
             className='
                 py-5
@@ -90,7 +90,7 @@ function NavBar() {
                     height={170}
                 />
             </Link>
-            <ul className='hidden md:ml-28 md:flex'>
+            <ul className='hidden md:ml-28 xl:flex'>
                     <Dropdown
                         menu={{
                             items,
@@ -280,7 +280,7 @@ function NavBar() {
                 text-lg
                 font-bold
                 md:ml-4
-                md:flex
+                xl:flex
                 hidden
                 cursor-pointer
             '>

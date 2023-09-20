@@ -2,61 +2,67 @@ import React from 'react'
 
 function Main() {
   return (
-    <div className='md:flex justify-center mb-20 mt-16 ml'>
-    <div className='md:flex'>
+    <div className='xl:flex justify-center mb-20 mt-16 ml'>
+    <div className='xl:flex'>
     <div className='flex justify-center'>
         <img
             className='
-                w-[170px]
-                h-[160px]
+                xl:w-[170px]
+                xl:h-[160px]
+                w-[200px]
+                h-[190px]
             '
             src="https://restho-nextjs.vercel.app/assets/images/bg/h2-product-1.png"
         />
     </div>
         <div className='flex flex-col ml-5 mt-5'>
-        <div className='flex md:flex md:justify-start justify-center'>
-            <h1 className='font-bold font-serif text-xl'>vegetarian</h1>
+        <div className='flex xl:flex xl:justify-start justify-center'>
+            <h1 className='font-bold font-serif text-xl xl:text-xl'>vegetarian</h1>
         </div>
         <div className='flex justify-center'>
-              <p>Lorem ipsum dolor sit amet <br />consectet.</p>
+              <p className='xl:text-md text-lg'>Lorem ipsum dolor sit amet <br />consectet.</p>
         </div>
         </div>
     </div>
-          <div className='md:flex md:ml-5'>
+          <div className='xl:flex xl:mt-0 mt-10 xl:ml-5'>
               <div className='flex justify-center'>
                   <img
                       className='
-                        w-[170px]
-                        h-[160px]
+                        xl:w-[170px]
+                        xl:h-[160px]
+                        w-[200px]
+                        h-[190px]
             '
                       src="https://restho-nextjs.vercel.app/assets/images/bg/h2-product-2.png"
                   />
               </div>
               <div className='flex flex-col ml-5 mt-5'>
-                  <div className='flex md:flex md:justify-start justify-center'>
-                      <h1 className='font-bold font-serif text-xl'>Thai Soup</h1>
+                  <div className='flex xl:flex xl:justify-start justify-center'>
+                      <h1 className='font-bold font-serif text-xl xl:text-xl'>Thai Soup</h1>
                   </div>
                   <div className='flex justify-center'>
-                      <p>Lorem ipsum dolor sit amet <br />consectet.</p>
+                      <p className='xl:text-md text-lg'>Lorem ipsum dolor sit amet <br />consectet.</p>
                   </div>
               </div>
           </div>
-          <div className='md:flex md:ml-5'>
+          <div className='xl:flex xl:mt-0 mt-10 xl:ml-5'>
               <div className='flex justify-center'>
                   <img
                       className='
-                        w-[170px]
-                        h-[160px]
+                        xl:w-[170px]
+                        xl:h-[160px]
+                        w-[200px]
+                        h-[190px]
                     '
                       src="https://restho-nextjs.vercel.app/assets/images/bg/h2-product-3.png"
                   />
               </div>
               <div className='flex flex-col ml-5 mt-5'>
-                  <div className='flex md:flex md:justify-start justify-center'>
-                      <h1 className='font-bold font-serif text-xl'>Sea Food</h1>
+                  <div className='flex xl:flex xl:justify-start justify-center'>
+                      <h1 className='font-bold font-serif text-xl xl:text-xl'>Sea Food</h1>
                   </div>
                   <div className='flex justify-center'>
-                      <p>Lorem ipsum dolor sit amet <br />consectet.</p>
+                      <p className='xl:text-md text-lg'>Lorem ipsum dolor sit amet <br />consectet.</p>
                   </div>
               </div>
           </div>
@@ -65,6 +71,91 @@ function Main() {
 }
 
 export default Main
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // <div 
     //     className='

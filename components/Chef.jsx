@@ -14,8 +14,8 @@ function Chef() {
           <div
               className='
                     pt-16
-                    md:flex
-                    md:ml-20
+                    xl:flex
+                    xl:ml-20
                     flex
                     justify-center
                     '
@@ -28,7 +28,7 @@ function Chef() {
               <p className='
                         text-[#bf9444]
                         mx-3
-                        md:text-lg
+                        xl:text-lg
                         text-md
                         -mt-1
                     '
@@ -42,20 +42,20 @@ function Chef() {
               />
           </div>
           <div className='flex justify-center mt-7'>
-              <h1 className='font-bold font-serif text-3xl md:text-5xl'>Restho's Best Chef</h1>
+              <h1 className='font-bold font-serif text-3xl xl:text-5xl'>Restho's Best Chef</h1>
           </div>
-          <div className='md:flex justify-center mt-10'>
-              <div className='flex flex-col justify-center md:mt-0 mt-10'>
+          <div className='xl:flex justify-center mt-10'>
+              <div className='flex flex-col justify-center xl:mt-0 mt-10'>
                 <div
                 className='
                 relative
-                md:ml-0
+                xl:ml-0
                 m-auto
                 rounded-t-lg
                 bg-center
                 bg-cover
-                md:w-[302px]
-                md:h-[250px]
+                xl:w-[302px]
+                xl:h-[250px]
                 w-[270px]
                 h-[210px]
                 bg-[url("https://restho-nextjs.vercel.app/assets/images/bg/chef-kitchen1.png")]
@@ -67,16 +67,16 @@ function Chef() {
                     border-gray-200 
                     rounded-lg 
                     m-auto
-                    md:px-10
+                    xl:px-10
                     px-11
-                    md:pt-24
+                    xl:pt-24
                     pt-14 
                     pb-8
-                    md:-mt-20
+                    xl:-mt-20
                     -mt-9
                 '
                   >
-                      <h1 className='mt-5 text-gray-800 text-center text-xl md:text-2xl font-bold font-serif'>Mr. Willium Jhon</h1>
+                      <h1 className='mt-5 text-gray-800 text-center text-xl xl:text-2xl font-bold font-serif'>Mr. Willium Jhon</h1>
                         <p className='mt-3 text-gray-600 text-center'>Chef of Head</p>
                         <div className='flex gap-7 justify-center mt-3'>
                         <FaFacebookF className='text-gray-500 cursor-pointer' />
@@ -86,17 +86,17 @@ function Chef() {
                     </div>
                   </div>
               </div>
-              <div className='flex flex-col justify-center mx-7 md:mt-0 mt-10'>
+              <div className='flex flex-col justify-center mx-7 xl:mt-0 mt-10'>
                 <div
                 className='
                 relative
-                md:ml-0
+                xl:ml-0
                 m-auto
                 rounded-t-lg
                 bg-center
                 bg-cover
-                md:w-[310px]
-                md:h-[250px]
+                xl:w-[310px]
+                xl:h-[250px]
                 w-[275px]
                 h-[210px]
                 bg-[url("https://restho-nextjs.vercel.app/assets/images/bg/chef-kitchen2.png")]
@@ -108,16 +108,16 @@ function Chef() {
                     border-gray-200 
                     rounded-lg 
                     m-auto
-                    md:px-20
+                    xl:px-20
                     px-16
-                    md:pt-24
+                    xl:pt-24
                     pt-14 
                     pb-8
-                    md:-mt-20
+                    xl:-mt-20
                     -mt-9
                 '
                   >
-                      <h1 className='mt-5 text-gray-800 text-center text-xl mdtext-2xl font-bold font-serif'>Mile Woatson</h1>
+                      <h1 className='mt-5 text-gray-800 text-center text-xl xl:text-2xl font-bold font-serif'>Mile Woatson</h1>
                       <p className='mt-3 text-gray-600 text-center'>Chef of Head</p>
                       <div className='flex gap-7 justify-center mt-3'>
                           <FaFacebookF className='text-gray-500 cursor-pointer' />
@@ -127,38 +127,38 @@ function Chef() {
                       </div>
                   </div>
               </div>
-              <div className='flex flex-col justify-center md:mt-0 mt-10'>
+              <div className='flex flex-col justify-center xl:mt-0 mt-10'>
                 <div
                 className='
                 relative
-                md:ml-0
+                xl:ml-0
                 m-auto
                 rounded-t-lg
                 bg-center
                 bg-cover
-                md:w-[302px]
-                md:h-[250px]
+                xl:w-[302px]
+                xl:h-[250px]
                 w-[270px]
                 h-[210px]
                 bg-[url("https://restho-nextjs.vercel.app/assets/images/bg/chef-kitchen3.png")]
             '>
                   </div>
                   <div
-                      className='
+                    className='
                     border 
                     border-gray-200 
                     rounded-lg 
                     m-auto
-                    md:px-12
+                    xl:px-12
                     px-8
-                    md:pt-24
+                    xl:pt-24
                     pt-14 
                     pb-8
-                    md:-mt-20
+                    xl:-mt-20
                     -mt-9
                 '
                   >
-                      <h1 className='mt-5 text-gray-800 text-center text-2xl font-bold font-serif'>Mr. Robert Jhon</h1>
+                      <h1 className='mt-5 text-gray-800 text-center text-xl xl:text-2xl font-bold font-serif'>Mr. Robert Jhon</h1>
                       <p className='mt-3 text-gray-600 text-center'>Chef of Head</p>
                       <div className='flex gap-7 justify-center mt-3'>
                           <FaFacebookF className='text-gray-500 cursor-pointer' />

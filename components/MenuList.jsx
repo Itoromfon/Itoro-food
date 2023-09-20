@@ -4,12 +4,12 @@ import { BsArrowUpRightCircle } from 'react-icons/bs'
 
 function MenuList() {
   return (
-    <div className='md:ml-16'>
-    <div className='md:flex md:mx-20 mx-10 mt-10 md:mt-20 justify-between'>
+    <div className='xl:ml-16'>
+    <div className='xl:flex xl:mx-20 mx-10 mt-12 xl:mt-20 justify-between'>
           <div
               className='
-                        md:flex
-                        md:justify-start
+                        xl:flex
+                        xl:justify-start
                         flex
                         justify-center
 
@@ -23,9 +23,9 @@ function MenuList() {
               <p className='
                         text-[#bf9444]
                         mx-3
-                        md:text-lg
+                        xl:text-lg
                         text-md
-                        md:mt-8
+                        xl:mt-8
                     '
               >
                   Menu List
@@ -65,8 +65,8 @@ function MenuList() {
                   </button>
           </div>
          </div>
-         <div className='flex md:justify-start justify-center mt-10 md:mt-2 md:mx-20 mx-10'>
-            <h1 className='font-bold font-serif text-3xl md:text-5xl'>Find Your Food Item</h1>
+         <div className='flex xl:justify-start justify-center mt-10 xl:mt-2 xl:mx-20 mx-10'>
+            <h1 className='font-bold font-serif text-3xl xl:text-5xl'>Find Your Food Item</h1>
          </div>
     </div>
   )

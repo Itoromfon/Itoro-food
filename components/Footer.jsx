@@ -16,15 +16,15 @@ function Footer() {
       bg-gray-900
       text-white
       px-28
-      md:pt-36
+      xl:pt-36
       pt-24
       pb-4
     '>
       <div>
-        <h1 className='text-2xl md:text-left text-center font-bold font-serif'>Our Facilities</h1> 
+        <h1 className='text-2xl xl:text-left text-center font-bold font-serif'>Our Facilities</h1> 
       </div>
-      <div className='md:flex'>
-        <div className='flex justify-center md:justify-start'>
+      <div className='xl:flex'>
+        <div className='flex justify-center xl:justify-start'>
       <div>
         <p 
           className='
@@ -92,7 +92,7 @@ function Footer() {
           Best Offer
         </p>
       </div>
-        <div className='md:ml-16 ml-10'>
+        <div className='xl:ml-16 ml-10'>
         <p 
         className='
         text-md 
@@ -155,27 +155,27 @@ function Footer() {
           rounded-full
           border
           border-gray-600
-          md:w-[300px]
-          md:h-[300px]
+          xl:w-[300px]
+          xl:h-[300px]
           w-[280px]
           h-[280px]
-          md:ml-28
-          md:-mt-20
+          xl:ml-28
+          xl:-mt-20
           mt-10
       '>
       <div>
       <img 
           src="https://restho-nextjs.vercel.app/assets/images/header1-logo.svg"
           className='
-            md:w-[180px]
-            md:-h[180px]
+            xl:w-[180px]
+            xl:-h[180px]
             w-[140px]
             h-[140px]
-            md:mt-4
-            md:mb-5
+            xl:mt-4
+            xl:mb-5
             mb-5
             ml-16
-            md:ml-12
+            xl:ml-12
           '
       />
       <h1 
@@ -205,7 +205,7 @@ function Footer() {
       />
       <p className='text-[#bf9444]'>__________</p>
     </div>
-    <div className='flex md:ml-16 ml-16 mt-7'>
+    <div className='flex xl:ml-16 ml-16 mt-7'>
       <div 
         className='
           border
@@ -217,7 +217,7 @@ function Footer() {
           p-1.5
           rounded-full
           cursor-pointer
-          md:ml-2
+          xl:ml-2
       '>
         <FaFacebookF />
       </div>
@@ -273,8 +273,8 @@ function Footer() {
       className='
         flex 
         flex-col
-        md:ml-28
-        md:-mt-8
+        xl:ml-28
+        xl:-mt-8
         mt-10
     '>
     <div>
@@ -283,7 +283,7 @@ function Footer() {
           text-2xl 
           font-bold 
           font-serif
-          md:text-left
+          xl:text-left
           text-center
       '>
         Address Info
@@ -300,7 +300,7 @@ function Footer() {
         transition-colors
         duration-500
         ease-linear
-        md:text-left
+        xl:text-left
         text-center
       '>
         <span 
@@ -323,7 +323,7 @@ function Footer() {
         transition-colors
         duration-500
         ease-linear
-        md:text-left
+        xl:text-left
         text-center
       '>
         <span
@@ -346,7 +346,7 @@ function Footer() {
         transition-colors
         duration-500
         ease-linear
-        md:text-left
+        xl:text-left
         text-center
       '>
       <span
@@ -368,8 +368,8 @@ function Footer() {
         hover:text-[#bf9444]
         transition-colors
         duration-500
-          ease-linear
-        md:text-left
+        ease-linear
+        xl:text-left
         text-center
       '>
       <span
@@ -393,9 +393,9 @@ function Footer() {
         mt-20
     '>
     </div>
-      <div className='md:flex md:justify-between mt-4'>
+      <div className='xl:flex xl:justify-between mt-4'>
       <div>
-          <p className='md:text-md text-sm text-center text-gray-300'>@Copyright by  
+          <p className='xl:text-md text-sm text-center text-gray-300'>@Copyright by  
           <span 
           className='
             hover:text-[#bf9444]
@@ -409,7 +409,7 @@ function Footer() {
           '>Egenslab</span>-2023, All Right Reserved.</p>
       </div>
       <div>
-          <p className='md:text-md text-sm text-center text-gray-300'>
+          <p className='xl:text-md text-sm text-center text-gray-300'>
           <span className='
             hover:text-[#bf9444]
             cursor-pointer

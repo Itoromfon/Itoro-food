@@ -6,12 +6,12 @@ function Reservation() {
   return (
     <div 
         className='
-            md:mt-32
+            xl:mt-32
             mt-16
             mb-20
             pb-24
-            md:flex
-            md:flex-col
+            xl:flex
+            xl:flex-col
             bg-cover
             bg-center
             bg-[url("https://restho-nextjs.vercel.app/_next/static/media/h2-reservation-bg.ca77ecb0.png")]
@@ -19,8 +19,8 @@ function Reservation() {
           <div
               className='
                     pt-16
-                    md:flex
-                    md:ml-20
+                    xl:flex
+                    xl:ml-20
                     flex
                     justify-center
                     '
@@ -33,7 +33,7 @@ function Reservation() {
               <p className='
                         text-[#bf9444]
                         mx-3
-                        md:text-lg
+                        xl:text-lg
                         text-md
                         -mt-1
                     '
@@ -47,9 +47,9 @@ function Reservation() {
               />
           </div> 
           <div className='flex justify-center mt-5'>
-              <h1 className='text-white md:text-5xl text-3xl text-center font-bold font-serif'>For Online Reservation</h1>
+              <h1 className='text-white xl:text-5xl text-3xl text-center font-bold font-serif'>For Online Reservation</h1>
           </div>
-          <div className='md:flex justify-center mt-5'>
+          <div className='xl:flex justify-center mt-5'>
             <div className='flex flex-col'>
             <div className='flex justify-center'>
                 <input 
@@ -167,13 +167,13 @@ function Reservation() {
                 duration-500
                 ease-linear
                 text-white
-                md:px-40
+                xl:px-40
                 px-28
                 py-3.5
                 rounded-full
                 text-lg
                 font-bold
-                md:ml-4
+                xl:ml-4
                 cursor-pointer
             '>
                   Reserve Now
